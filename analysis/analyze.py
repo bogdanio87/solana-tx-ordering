@@ -327,6 +327,36 @@ def active():
                       P_higher_fee_first=fmt_ci(wilson(g.hi_first.sum(), len(g))), P_fee_wins_when_disagree=fmt_ci(wilson(dis.hi_first.sum(), len(dis))),
                       P_earlier_sent_first=fmt_ci(wilson(g.early_first.sum(), len(g)))))
     md.append("### Per client class\n" + pd.DataFrame(C).to_markdown(index=False) + "\n")
+    # headline: client class x condition, decisive statistic + verdict, and a heatmap
+    H = []
+    for key, g in P.groupby(["leader_client", "arm", "gap"]):
+        dis = g[~g.agree]
+        pf, lo, hi = wilson(dis.hi_first.sum(), len(dis))
+        H.append(dict(client=key[0], arm=key[1], send_gap_ms=key[2], validators=g.leader.nunique(), blocks=g.slot.nunique(), pairs=len(g),
+                      disagree_pairs=len(dis), P_fee_wins_when_disagree=fmt_ci((pf, lo, hi)),
+                      P_earlier_sent_first=fmt_ci(wilson(g.early_first.sum(), len(g))), verdict=verdict(g), _p=pf, _n=len(dis)))
+    Hd = pd.DataFrame(H)
+    Hd.drop(columns=["_p", "_n"]).to_csv(os.path.join(OUT, "verdicts_by_client_condition.csv"), index=False)
+    md.append("### Headline: client class × condition\n`conflict` = all 8 probes write-lock one account; `independent` = 8 separate payers. "
+              "gap 0 = probes sent together (arrival order ≈ noise); gap 20 ms = arrival order is a controlled variable.\n"
+              + Hd.drop(columns=["_p", "_n"]).to_markdown(index=False) + "\n")
+    conds = [("conflict", 0), ("conflict", 20), ("independent", 0), ("independent", 20)]
+    clients = sorted(Hd.client.unique())
+    M = np.full((len(clients), len(conds)), np.nan); N = np.zeros_like(M)
+    for _, r in Hd.iterrows():
+        if (r.arm, r.send_gap_ms) in conds:
+            M[clients.index(r.client), conds.index((r.arm, r.send_gap_ms))] = r._p; N[clients.index(r.client), conds.index((r.arm, r.send_gap_ms))] = r._n
+    fig, ax = plt.subplots(figsize=(7.5, 0.55 * len(clients) + 1.6))
+    im = ax.imshow(M, cmap="RdBu_r", vmin=0, vmax=1, aspect="auto")
+    for i in range(len(clients)):
+        for j in range(len(conds)):
+            if not np.isnan(M[i, j]):
+                ax.text(j, i, f"{M[i, j]:.2f}\nn={int(N[i, j])}", ha="center", va="center", fontsize=8)
+    ax.set_xticks(range(len(conds))); ax.set_xticklabels([f"{a}\ngap {g} ms" for a, g in conds], fontsize=8)
+    ax.set_yticks(range(len(clients))); ax.set_yticklabels(clients, fontsize=8)
+    plt.colorbar(im, ax=ax, label="P(higher fee first | fee and send order disagree)")
+    ax.set_title("1 = fee decides (red), 0 = arrival decides (blue), 0.5 = neither", fontsize=9); plt.tight_layout()
+    plt.savefig(os.path.join(OUT, "active_headline_heatmap.png"), dpi=130); plt.close()
     A = []
     for key, g in P.groupby(["leader_client", "arm", "fireOffset", "gap"]):
         A.append(dict(client=key[0], arm=key[1], fireOffset=key[2], send_gap_ms=key[3], pairs=len(g), P_higher_fee_first=fmt_ci(wilson(g.hi_first.sum(), len(g))),
@@ -345,7 +375,7 @@ def active():
     labels, vals, los, his, vals2 = [], [], [], [], []
     for key, g in P.groupby(["leader_version", "leader"]):
         p, lo, hi = wilson(g.hi_first.sum(), len(g))
-        labels.append(f"{key[0]}\n{key[1][:6]}"); vals.append(p); los.append(p - lo); his.append(hi - p)
+        labels.append(f"{key[0]}\n{key[1][:6]}"); vals.append(p); los.append(max(0, p - lo)); his.append(max(0, hi - p))
         vals2.append(g.early_first.mean())
     x = np.arange(len(labels))
     ax.bar(x - .2, vals, .4, yerr=[los, his], capsize=3, label="P(higher fee earlier)")
@@ -373,7 +403,7 @@ def active():
 
 def verdict(g):
     dis = g[~g.agree]
-    if len(g) < 6 or len(dis) < 3:
+    if len(g) < 6 or len(dis) < 5:
         return "insufficient data"
     pf, lo, hi = wilson(dis.hi_first.sum(), len(dis))
     if lo > 0.5:

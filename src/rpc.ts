@@ -37,11 +37,13 @@ export class Rpc {
           body: JSON.stringify({ jsonrpc: "2.0", id: 1, method, params }),
           signal: ctl.signal,
         });
-        clearTimeout(to);
         if (res.status === 429 || res.status >= 500) {
+          clearTimeout(to);
           throw new RpcError(res.status, `HTTP ${res.status}`);
         }
+        // keep the abort timer armed while reading the body: a stalled body read hung the first live run
         const body: any = await res.json();
+        clearTimeout(to);
         if (body.error) {
           const e = new RpcError(body.error.code, body.error.message, body.error.data);
           // Non-retryable semantic errors

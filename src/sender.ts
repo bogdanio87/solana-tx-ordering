@@ -4,6 +4,8 @@
 // arrival time and push probes into other leaders' windows).
 import { log } from "./log";
 
+const SEND_TIMEOUT_MS = Number(process.env.SEND_TIMEOUT_MS ?? 4000);
+
 export interface SendResult {
   endpoint: string;
   tStartMs: number;
@@ -16,7 +18,9 @@ export interface SendResult {
 async function postSend(endpoint: string, wireBase64: string): Promise<SendResult> {
   const tStartMs = Date.now();
   try {
+    // hard timeout: a hanging endpoint must never stall the fire loop (observed on the live run, see REPORT)
     const res = await fetch(endpoint, {
+      signal: AbortSignal.timeout(SEND_TIMEOUT_MS),
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ jsonrpc: "2.0", id: 1, method: "sendTransaction", params: [wireBase64, { encoding: "base64", skipPreflight: true, maxRetries: 0 }] }),

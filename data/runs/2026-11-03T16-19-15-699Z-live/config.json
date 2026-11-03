@@ -1,0 +1,74 @@
+{
+ "dryRun": false,
+ "confirmSpend": true,
+ "maxSpendSol": 0.04,
+ "spendSafetyMargin": 0,
+ "rpcUrl": "https://api.mainnet-beta.solana.com",
+ "wsUrl": "",
+ "sendRpcUrls": [
+  "https://api.mainnet-beta.solana.com",
+  "https://solana-rpc.publicnode.com"
+ ],
+ "rpcMaxRps": 6,
+ "keypairPath": "/keys/payer.json",
+ "subWalletsPath": "/keys/subwallets.json",
+ "minValidators": 6,
+ "minClients": 3,
+ "perClientTargets": 2,
+ "windowsPerValidator": 12,
+ "lookaheadSlots": 18000,
+ "minLeadSlots": 40,
+ "fireSlotOffsets": [
+  -1,
+  1
+ ],
+ "maxClientClasses": 6,
+ "targetIdentities": [
+  "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "6y7V8dL673XFzm9QyC5vvh3itWkp7wztahBd2yDqsyrK",
+  "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "Hz5aLvpKScNWoe9YZWxBLrQA3qzHJivBGtfciMekk8m5",
+  "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+  "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
+  "pSo1KZXgG1EGHch6pPmscfYhv3buXyaj2dR8WkVnkfc",
+  "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89",
+  "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS"
+ ],
+ "excludeClients": [
+  "unknown"
+ ],
+ "minWindowGapSlots": 10,
+ "slotMs": 200,
+ "txPerWindow": 8,
+ "sendGapsMs": [
+  0,
+  20
+ ],
+ "priorityLevelsLamports": [
+  0,
+  5,
+  20,
+  100,
+  400,
+  1500,
+  5000,
+  15000
+ ],
+ "cuLimit": 600,
+ "loadedAccountsDataLimit": 32768,
+ "arms": [
+  "independent",
+  "conflict"
+ ],
+ "lamportsPerSignature": 5000,
+ "statusTimeoutMs": 60000,
+ "saveFullBlocks": false,
+ "passiveBlocksPerClient": 6,
+ "passiveRangeSlots": 3000,
+ "dataDir": "/data",
+ "runId": "",
+ "seed": ""
+}

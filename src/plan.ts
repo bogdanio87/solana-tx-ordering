@@ -69,6 +69,8 @@ export function buildPlan(snap: ClusterSnapshot, windows: LeaderWindow[], curren
       for (const id of sorted) {
         if (picked.length >= config.perClientTargets) break;
         const v = node(id)?.version ?? "?";
+        // a second, distinct version is only worth it if that leader has enough windows to give a verdict
+        if (picked.length > 0 && byLeader.get(id)!.length < Math.min(6, config.windowsPerValidator)) continue;
         if (!versions.has(v) || sorted.length - sorted.indexOf(id) <= config.perClientTargets - picked.length) {
           picked.push(id);
           versions.add(v);

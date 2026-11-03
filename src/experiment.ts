@@ -194,12 +194,25 @@ export async function runExperiment() {
         const maxPrio = Math.max(...config.priorityLevelsLamports);
         const need = rent + indepWindows.length * (config.lamportsPerSignature + maxPrio + 1) + 2 * config.lamportsPerSignature + 10_000;
         if (bals[i + 1] >= need) continue;
-        const amt = need - bals[i + 1];
-        const bh = await rpc.call<any>("getLatestBlockhash", [{ commitment: "confirmed" }]);
-        const t = buildTransfer(payer, subs[i].publicKey, amt, bh.value.blockhash);
-        budget.reserve([{ kind: "fund_subwallet", signature: t.signature, lamports: config.lamportsPerSignature }]);
-        await sendAndConfirmSimple(rpc, t.wireBase64, t.signature);
-        log("funded_subwallet", { i, pubkey: subs[i].publicKey.toBase58(), lamports: amt, sig: t.signature });
+        // public RPC is load-balanced: a blockhash from one backend may be unknown to another -> preflight fails.
+        // Retry with a fresh blockhash and a fresh balance read (a failed preflight costs nothing).
+        for (let attempt = 0; ; attempt++) {
+          const cur = (await balances(rpc, [subs[i].publicKey]))[0];
+          if (cur >= need) break;
+          const amt = need - cur;
+          const bh = await rpc.call<any>("getLatestBlockhash", [{ commitment: "finalized" }]);
+          const t = buildTransfer(payer, subs[i].publicKey, amt, bh.value.blockhash);
+          budget.reserve([{ kind: "fund_subwallet", signature: t.signature, lamports: config.lamportsPerSignature }]);
+          try {
+            await sendAndConfirmSimple(rpc, t.wireBase64, t.signature);
+            log("funded_subwallet", { i, pubkey: subs[i].publicKey.toBase58(), lamports: amt, sig: t.signature });
+            break;
+          } catch (e: any) {
+            log("fund_retry", { i, attempt, err: String(e?.message ?? e), data: JSON.stringify(e?.data ?? null).slice(0, 600) });
+            if (attempt >= 5) throw e;
+            await sleep(3000);
+          }
+        }
       }
     }
   }
@@ -329,7 +342,7 @@ async function sweep(rpc: Rpc, payer: Keypair, subs: Keypair[], budget: Budget) 
     const amt = bals[i] - config.lamportsPerSignature;
     if (amt <= 0) continue;
     try {
-      const bh = await rpc.call<any>("getLatestBlockhash", [{ commitment: "confirmed" }]);
+      const bh = await rpc.call<any>("getLatestBlockhash", [{ commitment: "finalized" }]);
       const t = buildTransfer(subs[i], payer.publicKey, amt, bh.value.blockhash);
       budget.reserve([{ kind: "sweep", signature: t.signature, lamports: config.lamportsPerSignature }]);
       await sendAndConfirmSimple(rpc, t.wireBase64, t.signature);
@@ -347,4 +360,19 @@ export async function runReclaim() {
   const subs = loadOrCreateSubWallets(config.subWalletsPath, 0, false);
   const budget = new Budget(path.join(config.dataDir, "spend_ledger.json"), Math.floor(config.maxSpendSol * LAMPORTS_PER_SOL), "reclaim");
   await sweep(rpc, payer, subs, budget);
+}
+
+/** Re-run the collection phase for an interrupted run (reads probes.jsonl + plan.json of RUN_ID). */
+export async function runCollect() {
+  const runId = config.runId;
+  if (!runId) throw new Error("set RUN_ID to the run directory name under data/runs/");
+  const dir = path.join(config.dataDir, "runs", runId);
+  setLogFile(path.join(dir, "log.jsonl"));
+  const rpc = new Rpc(config.rpcUrl, config.rpcMaxRps);
+  const records: ProbeRecord[] = fs.readFileSync(path.join(dir, "probes.jsonl"), "utf8").trim().split("\n").filter(Boolean).map((l) => JSON.parse(l));
+  const plan = JSON.parse(fs.readFileSync(path.join(dir, "plan.json"), "utf8"));
+  const fired = new Set(records.map((r) => r.windowId));
+  log("collect_resume", { runId, probes: records.length, windowsFired: fired.size });
+  await collect(rpc, dir, records, plan.windows.filter((w: PlannedWindow) => fired.has(w.windowId)));
+  log("collect_done", { runId });
 }

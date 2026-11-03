@@ -1,5 +1,5 @@
 import { config } from "./config";
-import { runExperiment, runReclaim } from "./experiment";
+import { runExperiment, runReclaim, runCollect } from "./experiment";
 import { runPassive } from "./passive";
 import { Rpc } from "./rpc";
 import { snapshotCluster, upcomingWindows } from "./leaders";
@@ -12,6 +12,7 @@ async function main() {
     case "experiment": return runExperiment();
     case "passive": return runPassive();
     case "reclaim": return runReclaim();
+    case "collect": return runCollect();
     case "keygen": {
       const kp = loadOrCreateKeypair(config.keypairPath, true)!;
       console.log(`payer public key: ${kp.publicKey.toBase58()}  (secret stays in ${config.keypairPath})`);

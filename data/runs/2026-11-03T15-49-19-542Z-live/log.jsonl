@@ -1,0 +1,227 @@
+{"ts":"2026-11-03T15:49:19.543Z","tsMs":1793720959543,"event":"run_start","runId":"2026-11-03T15-49-19-542Z-live","dryRun":false,"rpc":"https://api.mainnet-beta.solana.com","sendEndpoints":2}
+{"ts":"2026-11-03T15:49:19.581Z","tsMs":1793720959581,"event":"payer","pubkey":"AqyF6icKCraPEg83hb59LF1Bsm9JYj89pCQE6TiNjPFb"}
+{"ts":"2026-11-03T15:49:20.110Z","tsMs":1793720960110,"event":"alpenglow_check","currentSlot":464955071,"alpenglowSlot":459653000,"side":"post-Alpenglow"}
+{"ts":"2026-11-03T15:49:20.775Z","tsMs":1793720960775,"event":"plan","targets":12,"windows":144,"clients":"AgaveBam 4.4.0 | AgaveBam 4.3.2 | HarmonicAgave 4.4.0 | HarmonicAgave 4.3.2 | JitoLabs 4.4.0 | JitoLabs 4.3.2 | HarmonicFiredancer 26.10.5 | HarmonicFiredancer 26.10.4 | Firedancer 26.10.5 | Firedancer 0.1.1 | Agave 4.3.2"}
+{"ts":"2026-11-03T15:49:20.775Z","tsMs":1793720960775,"event":"target","identity":"DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy","clientClass":"AgaveBam","clientVersion":"AgaveBam 4.4.0","stakeSol":13043664.457593951,"windowsAvailable":131}
+{"ts":"2026-11-03T15:49:20.775Z","tsMs":1793720960775,"event":"target","identity":"6y7V8dL673XFzm9QyC5vvh3itWkp7wztahBd2yDqsyrK","clientClass":"AgaveBam","clientVersion":"AgaveBam 4.3.2","stakeSol":2916668.65537848,"windowsAvailable":30}
+{"ts":"2026-11-03T15:49:20.775Z","tsMs":1793720960775,"event":"target","identity":"Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk","clientClass":"HarmonicAgave","clientVersion":"HarmonicAgave 4.4.0","stakeSol":17030640.78638297,"windowsAvailable":179}
+{"ts":"2026-11-03T15:49:20.775Z","tsMs":1793720960775,"event":"target","identity":"Hz5aLvpKScNWoe9YZWxBLrQA3qzHJivBGtfciMekk8m5","clientClass":"HarmonicAgave","clientVersion":"HarmonicAgave 4.3.2","stakeSol":3939526.941762402,"windowsAvailable":49}
+{"ts":"2026-11-03T15:49:20.776Z","tsMs":1793720960776,"event":"target","identity":"HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU","clientClass":"JitoLabs","clientVersion":"JitoLabs 4.4.0","stakeSol":16704339.555075496,"windowsAvailable":178}
+{"ts":"2026-11-03T15:49:20.776Z","tsMs":1793720960776,"event":"target","identity":"5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm","clientClass":"JitoLabs","clientVersion":"JitoLabs 4.3.2","stakeSol":6004958.571272983,"windowsAvailable":59}
+{"ts":"2026-11-03T15:49:20.776Z","tsMs":1793720960776,"event":"target","identity":"EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4","clientClass":"HarmonicFiredancer","clientVersion":"HarmonicFiredancer 26.10.5","stakeSol":7814809.946869224,"windowsAvailable":90}
+{"ts":"2026-11-03T15:49:20.776Z","tsMs":1793720960776,"event":"target","identity":"pSo1KZXgG1EGHch6pPmscfYhv3buXyaj2dR8WkVnkfc","clientClass":"HarmonicFiredancer","clientVersion":"HarmonicFiredancer 26.10.4","stakeSol":1628885.650185459,"windowsAvailable":14}
+{"ts":"2026-11-03T15:49:20.776Z","tsMs":1793720960776,"event":"target","identity":"JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB","clientClass":"Firedancer","clientVersion":"Firedancer 26.10.5","stakeSol":6210999.943105899,"windowsAvailable":75}
+{"ts":"2026-11-03T15:49:20.776Z","tsMs":1793720960776,"event":"target","identity":"FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89","clientClass":"Firedancer","clientVersion":"Firedancer 0.1.1","stakeSol":1920412.812412376,"windowsAvailable":14}
+{"ts":"2026-11-03T15:49:20.776Z","tsMs":1793720960776,"event":"target","identity":"7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE","clientClass":"Agave","clientVersion":"Agave 4.3.2","stakeSol":1875001.9534662,"windowsAvailable":21}
+{"ts":"2026-11-03T15:49:20.776Z","tsMs":1793720960776,"event":"target","identity":"5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS","clientClass":"Agave","clientVersion":"Agave 4.3.2","stakeSol":1207980.324911175,"windowsAvailable":16}
+{"ts":"2026-11-03T15:49:20.777Z","tsMs":1793720960777,"event":"budget","capLamports":40000000,"alreadyReserved":20000,"projectedLamports":9012752,"projectedSol":0.009012752}
+{"ts":"2026-11-03T15:49:21.276Z","tsMs":1793720961276,"event":"simulation","err":"null","unitsConsumed":600,"cuLimit":600,"payer":"AqyF6icKCraPEg83hb59LF1Bsm9JYj89pCQE6TiNjPFb"}
+{"ts":"2026-11-03T15:49:21.437Z","tsMs":1793720961437,"event":"balances","payer":33954079,"subs":"2010307,2010307,2010307,0,0,0,0,0","total":39985000}
+{"ts":"2026-11-03T15:49:27.175Z","tsMs":1793720967175,"event":"funded_subwallet","i":0,"pubkey":"D7bzw99M5rpQgaZv63VwWedePYuz5EvjLEFkB3k1iT3w","lamports":100005,"sig":"4wJuob7EnHufDDDq9Cs5HDL92MMC61cWZi2B2k5A7Zu27GAUttXYKykRFbmAYettAQjfd7bCdUJGqd5deKUeTTcw"}
+{"ts":"2026-11-03T15:49:32.533Z","tsMs":1793720972533,"event":"funded_subwallet","i":1,"pubkey":"Hd1z9DZgdgeguUoEn81MAxoooX77uBSPe3vBrpFpVSoq","lamports":100005,"sig":"3RAs7GEBbbNfHe92zbZrBkWgMYVbzTPSXQdZAhS46tFd8suSqhRenFB36U3gR7X84upJpSRe6nfVxwfvRxAU8nq"}
+{"ts":"2026-11-03T15:49:37.936Z","tsMs":1793720977936,"event":"funded_subwallet","i":2,"pubkey":"DxX9E64Nwwck4uarepF6qdjhENbEucQVdUj76N4Y7X8L","lamports":100005,"sig":"5thgWVqopfFDqdFxw3SDqnURNNJ2eDxmXKNPDUTVX3Jsd27ooiR2qRP5Ep2AuMPgpqKXmEG77aTs2aLXtz9ZG85D"}
+{"ts":"2026-11-03T15:49:42.474Z","tsMs":1793720982474,"event":"funded_subwallet","i":3,"pubkey":"9K4vGzpGrnRfnKRGpGFHxaj95A3Ha7FGvzUdk4u5Fthu","lamports":2110312,"sig":"2Y69UKpLXoAfuk3Jpd3NSy99hQQ4Sb8HrwUMpNqyDRVxwNzjQxtHDSEsNSHYozhXmgz2u1tg3RwooSPD1C6mmudP"}
+{"ts":"2026-11-03T15:49:45.932Z","tsMs":1793720985932,"event":"funded_subwallet","i":4,"pubkey":"9k2JadLiW1ZvhhwZK6iZ2xE7CczWjZdAtXMQsGX6ysHs","lamports":2110312,"sig":"3HzSpMB5vQaPtrthqvN9zoFR1uRM8UMtpyMQPyGdEqmBgCuYk5W5et3sY258GE64WAR8EWXwMVsq2jxJ7wyuKSm2"}
+{"ts":"2026-11-03T15:49:51.385Z","tsMs":1793720991385,"event":"funded_subwallet","i":5,"pubkey":"98QZPcLTTaX6q4QXimrSMSJreA9tNELcocUj3cBrpgf3","lamports":2110312,"sig":"3nyyXF3qYa2b5RdMePrc7FUcz1HLaNn736xm7ZUc6RPj4qbQPiqDPcvuxpau7frujWhauexeRkY2B9x3QrxDFv7j"}
+{"ts":"2026-11-03T15:49:56.881Z","tsMs":1793720996881,"event":"funded_subwallet","i":6,"pubkey":"2x935KxhtYbqcmYtuPD9W6ThsgnKhigoCHHgfhXSSRcb","lamports":2110312,"sig":"4LwnGti5edajkh7VH7HA61zkdibDbPu75vG6sowwLFKDNcPEWBCJbHHjg8EcaKQdozBwRJThZKaWd5YSHHGeUpxF"}
+{"ts":"2026-11-03T15:50:00.257Z","tsMs":1793721000257,"event":"funded_subwallet","i":7,"pubkey":"HWk7vb5piieqZoq3XDSs6tq7BiCgX42x3fHC62eXn9S3","lamports":2110312,"sig":"3AQpPzyFSKzMKg39mJVpY5P2WXHKCDc43FA5NnL49NbHKLERDcHRyeNFFK5P7CEuEF1ayHhGMdg2JiJAuM4TuURn"}
+{"ts":"2026-11-03T15:50:00.956Z","tsMs":1793721000956,"event":"replanned_after_funding","windows":144}
+{"ts":"2026-11-03T15:50:01.240Z","tsMs":1793721001240,"event":"slotclock_ws","url":"wss://api.mainnet-beta.solana.com"}
+{"ts":"2026-11-03T15:50:09.335Z","tsMs":1793721009335,"event":"onchain_spend_check","spentLamports":55000,"cap":40000000}
+{"ts":"2026-11-03T15:50:11.776Z","tsMs":1793721011776,"event":"burst","windowId":"464955316-HEL1US","client":"JitoLabs 4.4.0","arm":"independent","off":-1,"gap":0,"fireSlot":464955315,"est":"464955315.00","slotMs":"200.0","src":"http","reserved":122025}
+{"ts":"2026-11-03T15:50:18.292Z","tsMs":1793721018292,"event":"burst","windowId":"464955344-HEL1US","client":"JitoLabs 4.4.0","arm":"independent","off":1,"gap":0,"fireSlot":464955345,"est":"464955345.00","slotMs":"200.0","src":"http","reserved":184050}
+{"ts":"2026-11-03T15:50:24.493Z","tsMs":1793721024493,"event":"burst","windowId":"464955376-HEL1US","client":"JitoLabs 4.4.0","arm":"conflict","off":-1,"gap":0,"fireSlot":464955375,"est":"464955375.14","slotMs":"212.5","src":"http","reserved":246075}
+{"ts":"2026-11-03T15:50:33.321Z","tsMs":1793721033321,"event":"burst","windowId":"464955416-HEL1US","client":"JitoLabs 4.4.0","arm":"conflict","off":1,"gap":0,"fireSlot":464955417,"est":"464955417.00","slotMs":"213.0","src":"http","reserved":308100}
+{"ts":"2026-11-03T15:50:48.678Z","tsMs":1793721048678,"event":"burst","windowId":"464955488-HEL1US","client":"JitoLabs 4.4.0","arm":"independent","off":-1,"gap":20,"fireSlot":464955487,"est":"464955487.00","slotMs":"214.4","src":"http","reserved":370125}
+{"ts":"2026-11-03T15:50:48.694Z","tsMs":1793721048694,"event":"onchain_spend_check","spentLamports":303100,"cap":40000000}
+{"ts":"2026-11-03T15:50:51.160Z","tsMs":1793721051160,"event":"burst","windowId":"464955500-6y7V8d","client":"AgaveBam 4.3.2","arm":"independent","off":-1,"gap":0,"fireSlot":464955499,"est":"464955499.00","slotMs":"214.1","src":"http","reserved":432150}
+{"ts":"2026-11-03T15:50:59.865Z","tsMs":1793721059865,"event":"burst","windowId":"464955540-6y7V8d","client":"AgaveBam 4.3.2","arm":"independent","off":1,"gap":0,"fireSlot":464955541,"est":"464955541.00","slotMs":"212.6","src":"http","reserved":494175}
+{"ts":"2026-11-03T15:51:05.367Z","tsMs":1793721065367,"event":"burst","windowId":"464955568-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"independent","off":-1,"gap":0,"fireSlot":464955567,"est":"464955567.01","slotMs":"213.3","src":"http","reserved":556200}
+{"ts":"2026-11-03T15:51:09.316Z","tsMs":1793721069316,"event":"burst","windowId":"464955588-DRpbCB","client":"AgaveBam 4.4.0","arm":"independent","off":-1,"gap":0,"fireSlot":464955587,"est":"464955587.00","slotMs":"212.5","src":"http","reserved":618225}
+{"ts":"2026-11-03T15:51:14.025Z","tsMs":1793721074025,"event":"burst","windowId":"464955608-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"independent","off":-1,"gap":0,"fireSlot":464955607,"est":"464955607.40","slotMs":"213.2","src":"http","reserved":680250}
+{"ts":"2026-11-03T15:51:14.257Z","tsMs":1793721074257,"event":"onchain_spend_check","spentLamports":613225,"cap":40000000}
+{"ts":"2026-11-03T15:51:16.942Z","tsMs":1793721076942,"event":"burst","windowId":"464955620-HEL1US","client":"JitoLabs 4.4.0","arm":"independent","off":1,"gap":20,"fireSlot":464955621,"est":"464955621.00","slotMs":"212.7","src":"http","reserved":742275}
+{"ts":"2026-11-03T15:51:20.877Z","tsMs":1793721080877,"event":"burst","windowId":"464955640-DRpbCB","client":"AgaveBam 4.4.0","arm":"independent","off":1,"gap":0,"fireSlot":464955641,"est":"464955641.00","slotMs":"212.6","src":"http","reserved":804300}
+{"ts":"2026-11-03T15:51:29.175Z","tsMs":1793721089175,"event":"burst","windowId":"464955680-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"independent","off":1,"gap":0,"fireSlot":464955681,"est":"464955681.00","slotMs":"211.9","src":"http","reserved":866325}
+{"ts":"2026-11-03T15:51:35.526Z","tsMs":1793721095526,"event":"burst","windowId":"464955712-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"conflict","off":-1,"gap":0,"fireSlot":464955711,"est":"464955711.32","slotMs":"211.7","src":"http","reserved":928350}
+{"ts":"2026-11-03T15:51:37.943Z","tsMs":1793721097943,"event":"burst","windowId":"464955724-7QQGNm","client":"Agave 4.3.2","arm":"independent","off":-1,"gap":0,"fireSlot":464955723,"est":"464955723.00","slotMs":"211.7","src":"http","reserved":990375}
+{"ts":"2026-11-03T15:51:42.575Z","tsMs":1793721102575,"event":"onchain_spend_check","spentLamports":985375,"cap":40000000}
+{"ts":"2026-11-03T15:51:45.180Z","tsMs":1793721105180,"event":"burst","windowId":"464955756-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"conflict","off":1,"gap":0,"fireSlot":464955757,"est":"464955757.01","slotMs":"211.7","src":"http","reserved":1052400}
+{"ts":"2026-11-03T15:51:47.457Z","tsMs":1793721107457,"event":"burst","windowId":"464955768-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"independent","off":-1,"gap":20,"fireSlot":464955767,"est":"464955767.01","slotMs":"212.0","src":"http","reserved":1114425}
+{"ts":"2026-11-03T15:51:51.987Z","tsMs":1793721111987,"event":"burst","windowId":"464955788-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"independent","off":1,"gap":20,"fireSlot":464955789,"est":"464955789.00","slotMs":"211.3","src":"http","reserved":1176450}
+{"ts":"2026-11-03T15:51:59.570Z","tsMs":1793721119570,"event":"burst","windowId":"464955824-Hz5aLv","client":"HarmonicAgave 4.3.2","arm":"independent","off":-1,"gap":0,"fireSlot":464955823,"est":"464955823.40","slotMs":"212.3","src":"http","reserved":1238475}
+{"ts":"2026-11-03T15:52:04.765Z","tsMs":1793721124765,"event":"burst","windowId":"464955848-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"conflict","off":-1,"gap":20,"fireSlot":464955847,"est":"464955847.00","slotMs":"212.5","src":"http","reserved":1300500}
+{"ts":"2026-11-03T15:52:11.991Z","tsMs":1793721131991,"event":"onchain_spend_check","spentLamports":1295500,"cap":40000000}
+{"ts":"2026-11-03T15:52:14.465Z","tsMs":1793721134465,"event":"burst","windowId":"464955896-HEL1US","client":"JitoLabs 4.4.0","arm":"conflict","off":-1,"gap":20,"fireSlot":464955895,"est":"464955895.00","slotMs":"211.9","src":"http","reserved":1362525}
+{"ts":"2026-11-03T15:52:18.427Z","tsMs":1793721138427,"event":"burst","windowId":"464955912-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"independent","off":1,"gap":0,"fireSlot":464955913,"est":"464955913.00","slotMs":"211.8","src":"http","reserved":1424550}
+{"ts":"2026-11-03T15:52:34.577Z","tsMs":1793721154577,"event":"send_errors","n":1,"first":"fetch failed"}
+{"ts":"2026-11-03T15:52:34.577Z","tsMs":1793721154577,"event":"burst","windowId":"464955940-5pPRHn","client":"JitoLabs 4.3.2","arm":"independent","off":-1,"gap":0,"fireSlot":464955939,"est":"464955939.00","slotMs":"213.1","src":"http","reserved":1486575}
+{"ts":"2026-11-03T15:52:34.577Z","tsMs":1793721154577,"event":"window_skipped_late","windowId":"464955964-5pPRHn","now":"464955985.9","fireSlot":464955965}
+{"ts":"2026-11-03T15:52:34.577Z","tsMs":1793721154577,"event":"window_skipped_late","windowId":"464955984-HEL1US","now":"464955985.9","fireSlot":464955985}
+{"ts":"2026-11-03T15:52:34.592Z","tsMs":1793721154592,"event":"onchain_spend_check","spentLamports":1481575,"cap":40000000}
+{"ts":"2026-11-03T15:52:37.221Z","tsMs":1793721157221,"event":"burst","windowId":"464955996-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"conflict","off":1,"gap":20,"fireSlot":464955997,"est":"464955997.67","slotMs":"212.5","src":"http","reserved":1548600}
+{"ts":"2026-11-03T15:52:47.953Z","tsMs":1793721167953,"event":"burst","windowId":"464956048-HEL1US","client":"JitoLabs 4.4.0","arm":"independent","off":-1,"gap":0,"fireSlot":464956047,"est":"464956047.00","slotMs":"213.5","src":"http","reserved":1610625}
+{"ts":"2026-11-03T15:52:57.223Z","tsMs":1793721177223,"event":"burst","windowId":"464956092-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"independent","off":-1,"gap":0,"fireSlot":464956091,"est":"464956091.00","slotMs":"213.3","src":"http","reserved":1672650}
+{"ts":"2026-11-03T15:53:05.248Z","tsMs":1793721185248,"event":"burst","windowId":"464956128-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"independent","off":1,"gap":0,"fireSlot":464956129,"est":"464956129.00","slotMs":"213.5","src":"http","reserved":1734675}
+{"ts":"2026-11-03T15:53:07.186Z","tsMs":1793721187186,"event":"burst","windowId":"464956140-JD549H","client":"Firedancer 26.10.5","arm":"independent","off":-1,"gap":0,"fireSlot":464956139,"est":"464956139.00","slotMs":"212.8","src":"http","reserved":1796700}
+{"ts":"2026-11-03T15:53:10.663Z","tsMs":1793721190663,"event":"onchain_spend_check","spentLamports":1791700,"cap":40000000}
+{"ts":"2026-11-03T15:53:13.447Z","tsMs":1793721193447,"event":"burst","windowId":"464956164-HEL1US","client":"JitoLabs 4.4.0","arm":"independent","off":1,"gap":0,"fireSlot":464956165,"est":"464956165.00","slotMs":"213.8","src":"http","reserved":1858725}
+{"ts":"2026-11-03T15:53:16.536Z","tsMs":1793721196536,"event":"burst","windowId":"464956180-HEL1US","client":"JitoLabs 4.4.0","arm":"conflict","off":-1,"gap":0,"fireSlot":464956179,"est":"464956179.35","slotMs":"214.1","src":"http","reserved":1920750}
+{"ts":"2026-11-03T15:53:20.416Z","tsMs":1793721200416,"event":"burst","windowId":"464956196-HEL1US","client":"JitoLabs 4.4.0","arm":"conflict","off":1,"gap":0,"fireSlot":464956197,"est":"464956197.00","slotMs":"214.1","src":"http","reserved":1982775}
+{"ts":"2026-11-03T15:53:28.477Z","tsMs":1793721208477,"event":"burst","windowId":"464956236-JD549H","client":"Firedancer 26.10.5","arm":"independent","off":1,"gap":0,"fireSlot":464956237,"est":"464956237.00","slotMs":"214.0","src":"http","reserved":2044800}
+{"ts":"2026-11-03T15:53:35.262Z","tsMs":1793721215262,"event":"burst","windowId":"464956268-DRpbCB","client":"AgaveBam 4.4.0","arm":"conflict","off":-1,"gap":0,"fireSlot":464956267,"est":"464956267.00","slotMs":"214.0","src":"http","reserved":2106825}
+{"ts":"2026-11-03T15:53:37.170Z","tsMs":1793721217170,"event":"onchain_spend_check","spentLamports":2101825,"cap":40000000}
+{"ts":"2026-11-03T15:53:39.945Z","tsMs":1793721219945,"event":"burst","windowId":"464956288-Hz5aLv","client":"HarmonicAgave 4.3.2","arm":"independent","off":1,"gap":0,"fireSlot":464956289,"est":"464956289.00","slotMs":"214.0","src":"http","reserved":2168850}
+{"ts":"2026-11-03T15:53:43.409Z","tsMs":1793721223409,"event":"burst","windowId":"464956308-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"conflict","off":-1,"gap":0,"fireSlot":464956307,"est":"464956307.00","slotMs":"213.4","src":"http","reserved":2230875}
+{"ts":"2026-11-03T15:54:00.012Z","tsMs":1793721240013,"event":"burst","windowId":"464956384-6y7V8d","client":"AgaveBam 4.3.2","arm":"conflict","off":-1,"gap":0,"fireSlot":464956383,"est":"464956383.01","slotMs":"215.0","src":"http","reserved":2292900}
+{"ts":"2026-11-03T15:54:02.817Z","tsMs":1793721242817,"event":"burst","windowId":"464956396-JD549H","client":"Firedancer 26.10.5","arm":"conflict","off":-1,"gap":0,"fireSlot":464956395,"est":"464956395.00","slotMs":"215.3","src":"http","reserved":2354925}
+{"ts":"2026-11-03T15:54:05.920Z","tsMs":1793721245920,"event":"burst","windowId":"464956408-DRpbCB","client":"AgaveBam 4.4.0","arm":"conflict","off":1,"gap":0,"fireSlot":464956409,"est":"464956409.00","slotMs":"215.5","src":"http","reserved":2416950}
+{"ts":"2026-11-03T15:54:08.554Z","tsMs":1793721248554,"event":"onchain_spend_check","spentLamports":2411950,"cap":40000000}
+{"ts":"2026-11-03T15:54:12.434Z","tsMs":1793721252434,"event":"burst","windowId":"464956432-Fd7btg","client":"HarmonicAgave 4.4.0","arm":"conflict","off":1,"gap":0,"fireSlot":464956433,"est":"464956433.01","slotMs":"215.6","src":"http","reserved":2478975}
+{"ts":"2026-11-03T15:54:16.996Z","tsMs":1793721256996,"event":"burst","windowId":"464956460-JD549H","client":"Firedancer 26.10.5","arm":"conflict","off":1,"gap":0,"fireSlot":464956461,"est":"464956461.00","slotMs":"215.6","src":"http","reserved":2541000}
+{"ts":"2026-11-03T15:54:21.789Z","tsMs":1793721261789,"event":"burst","windowId":"464956484-Hz5aLv","client":"HarmonicAgave 4.3.2","arm":"conflict","off":-1,"gap":0,"fireSlot":464956483,"est":"464956483.00","slotMs":"216.2","src":"http","reserved":2603025}
+{"ts":"2026-11-03T15:54:25.228Z","tsMs":1793721265228,"event":"burst","windowId":"464956500-5pPRHn","client":"JitoLabs 4.3.2","arm":"conflict","off":-1,"gap":0,"fireSlot":464956499,"est":"464956499.00","slotMs":"215.9","src":"http","reserved":2665050}
+{"ts":"2026-11-03T15:54:36.694Z","tsMs":1793721276694,"event":"burst","windowId":"464956548-Hz5aLv","client":"HarmonicAgave 4.3.2","arm":"conflict","off":1,"gap":0,"fireSlot":464956549,"est":"464956549.64","slotMs":"215.2","src":"http","reserved":2727075}
+{"ts":"2026-11-03T15:54:38.696Z","tsMs":1793721278696,"event":"onchain_spend_check","spentLamports":2722075,"cap":40000000}
+{"ts":"2026-11-03T15:54:41.381Z","tsMs":1793721281381,"event":"burst","windowId":"464956576-JD549H","client":"Firedancer 26.10.5","arm":"independent","off":-1,"gap":20,"fireSlot":464956575,"est":"464956575.00","slotMs":"215.6","src":"http","reserved":2789100}
+{"ts":"2026-11-03T15:54:46.720Z","tsMs":1793721286720,"event":"burst","windowId":"464956600-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"conflict","off":-1,"gap":0,"fireSlot":464956599,"est":"464956599.66","slotMs":"216.2","src":"http","reserved":2851125}
+{"ts":"2026-11-03T15:54:50.082Z","tsMs":1793721290083,"event":"burst","windowId":"464956616-Hz5aLv","client":"HarmonicAgave 4.3.2","arm":"independent","off":-1,"gap":20,"fireSlot":464956615,"est":"464956615.00","slotMs":"216.2","src":"http","reserved":2913150}
+{"ts":"2026-11-03T15:55:02.333Z","tsMs":1793721302333,"event":"burst","windowId":"464956672-5pPRHn","client":"JitoLabs 4.3.2","arm":"conflict","off":1,"gap":0,"fireSlot":464956673,"est":"464956673.00","slotMs":"214.7","src":"http","reserved":2975175}
+{"ts":"2026-11-03T15:55:11.899Z","tsMs":1793721311899,"event":"burst","windowId":"464956716-DRpbCB","client":"AgaveBam 4.4.0","arm":"independent","off":-1,"gap":20,"fireSlot":464956715,"est":"464956715.00","slotMs":"215.6","src":"http","reserved":3037200}
+{"ts":"2026-11-03T15:55:27.254Z","tsMs":1793721327254,"event":"onchain_spend_check","spentLamports":3032200,"cap":40000000}
+{"ts":"2026-11-03T15:55:29.884Z","tsMs":1793721329884,"event":"burst","windowId":"464956800-5pPRHn","client":"JitoLabs 4.3.2","arm":"independent","off":-1,"gap":20,"fireSlot":464956799,"est":"464956799.00","slotMs":"215.9","src":"http","reserved":3099225}
+{"ts":"2026-11-03T15:55:34.256Z","tsMs":1793721334256,"event":"burst","windowId":"464956820-pSo1KZ","client":"HarmonicFiredancer 26.10.4","arm":"independent","off":-1,"gap":0,"fireSlot":464956819,"est":"464956819.65","slotMs":"215.9","src":"http","reserved":3161250}
+{"ts":"2026-11-03T15:55:48.525Z","tsMs":1793721348525,"event":"burst","windowId":"464956884-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"conflict","off":1,"gap":0,"fireSlot":464956885,"est":"464956885.00","slotMs":"215.2","src":"http","reserved":3223275}
+{"ts":"2026-11-03T15:55:55.277Z","tsMs":1793721355277,"event":"burst","windowId":"464956916-6y7V8d","client":"AgaveBam 4.3.2","arm":"conflict","off":1,"gap":0,"fireSlot":464956917,"est":"464956917.70","slotMs":"215.2","src":"http","reserved":3285300}
+{"ts":"2026-11-03T15:56:00.628Z","tsMs":1793721360628,"event":"burst","windowId":"464956940-DRpbCB","client":"AgaveBam 4.4.0","arm":"independent","off":1,"gap":20,"fireSlot":464956941,"est":"464956941.00","slotMs":"215.3","src":"http","reserved":3347325}
+{"ts":"2026-11-03T15:56:04.963Z","tsMs":1793721364963,"event":"onchain_spend_check","spentLamports":3342325,"cap":40000000}
+{"ts":"2026-11-03T15:56:07.628Z","tsMs":1793721367628,"event":"burst","windowId":"464956976-DRpbCB","client":"AgaveBam 4.4.0","arm":"conflict","off":-1,"gap":20,"fireSlot":464956975,"est":"464956975.00","slotMs":"215.6","src":"http","reserved":3409350}
+{"ts":"2026-11-03T15:56:18.438Z","tsMs":1793721378438,"event":"burst","windowId":"464957024-DRpbCB","client":"AgaveBam 4.4.0","arm":"conflict","off":1,"gap":20,"fireSlot":464957025,"est":"464957025.00","slotMs":"215.3","src":"http","reserved":3471375}
+{"ts":"2026-11-03T15:56:22.030Z","tsMs":1793721382030,"event":"burst","windowId":"464957044-DRpbCB","client":"AgaveBam 4.4.0","arm":"independent","off":-1,"gap":0,"fireSlot":464957043,"est":"464957043.00","slotMs":"215.2","src":"http","reserved":3533400}
+{"ts":"2026-11-03T15:56:47.455Z","tsMs":1793721407455,"event":"burst","windowId":"464957160-Hz5aLv","client":"HarmonicAgave 4.3.2","arm":"independent","off":1,"gap":20,"fireSlot":464957161,"est":"464957161.01","slotMs":"214.6","src":"http","reserved":3595425}
+{"ts":"2026-11-03T15:56:54.652Z","tsMs":1793721414652,"event":"burst","windowId":"464957196-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"independent","off":-1,"gap":20,"fireSlot":464957195,"est":"464957195.00","slotMs":"214.7","src":"http","reserved":3657450}
+{"ts":"2026-11-03T15:57:06.515Z","tsMs":1793721426515,"event":"onchain_spend_check","spentLamports":3652450,"cap":40000000}
+{"ts":"2026-11-03T15:57:09.570Z","tsMs":1793721429570,"event":"burst","windowId":"464957264-FBbqKv","client":"Firedancer 0.1.1","arm":"independent","off":-1,"gap":0,"fireSlot":464957263,"est":"464957263.00","slotMs":"215.6","src":"http","reserved":3719475}
+{"ts":"2026-11-03T15:58:32.675Z","tsMs":1793721512675,"event":"rpc_retry","method":"getLatestBlockhash","attempt":0,"code":0,"msg":"This operation was aborted","backoffMs":337}
+{"ts":"2026-11-03T15:58:33.183Z","tsMs":1793721513183,"event":"burst","windowId":"464957364-DRpbCB","client":"AgaveBam 4.4.0","arm":"independent","off":1,"gap":0,"fireSlot":464957365,"est":"464957651.19","slotMs":"215.1","src":"http","reserved":3781500}
+{"ts":"2026-11-03T15:58:33.183Z","tsMs":1793721513183,"event":"window_skipped_late","windowId":"464957412-DRpbCB","now":"464957651.2","fireSlot":464957411}
+{"ts":"2026-11-03T15:58:33.183Z","tsMs":1793721513183,"event":"window_skipped_late","windowId":"464957468-DRpbCB","now":"464957651.2","fireSlot":464957469}
+{"ts":"2026-11-03T15:58:33.183Z","tsMs":1793721513183,"event":"window_skipped_late","windowId":"464957572-5pPRHn","now":"464957651.2","fireSlot":464957573}
+{"ts":"2026-11-03T15:58:38.588Z","tsMs":1793721518588,"event":"onchain_spend_check","spentLamports":3900550,"cap":40000000}
+{"ts":"2026-11-03T15:58:41.171Z","tsMs":1793721521171,"event":"burst","windowId":"464957688-pSo1KZ","client":"HarmonicFiredancer 26.10.4","arm":"independent","off":1,"gap":0,"fireSlot":464957689,"est":"464957689.00","slotMs":"214.6","src":"http","reserved":3843525}
+{"ts":"2026-11-03T15:59:08.213Z","tsMs":1793721548213,"event":"burst","windowId":"464957816-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"independent","off":1,"gap":20,"fireSlot":464957817,"est":"464957817.00","slotMs":"214.5","src":"http","reserved":3905550}
+{"ts":"2026-11-03T15:59:17.573Z","tsMs":1793721557573,"event":"burst","windowId":"464957860-Hz5aLv","client":"HarmonicAgave 4.3.2","arm":"conflict","off":-1,"gap":20,"fireSlot":464957859,"est":"464957859.00","slotMs":"214.5","src":"http","reserved":3967575}
+{"ts":"2026-11-03T15:59:23.744Z","tsMs":1793721563744,"event":"burst","windowId":"464957888-JD549H","client":"Firedancer 26.10.5","arm":"independent","off":1,"gap":20,"fireSlot":464957889,"est":"464957889.00","slotMs":"214.7","src":"http","reserved":4029600}
+{"ts":"2026-11-03T15:59:27.448Z","tsMs":1793721567448,"event":"burst","windowId":"464957904-7QQGNm","client":"Agave 4.3.2","arm":"independent","off":1,"gap":0,"fireSlot":464957905,"est":"464957905.01","slotMs":"215.2","src":"http","reserved":4091625}
+{"ts":"2026-11-03T15:59:50.622Z","tsMs":1793721590622,"event":"onchain_spend_check","spentLamports":4210675,"cap":40000000}
+{"ts":"2026-11-03T15:59:53.581Z","tsMs":1793721593581,"event":"burst","windowId":"464958028-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"conflict","off":-1,"gap":20,"fireSlot":464958027,"est":"464958027.00","slotMs":"214.9","src":"http","reserved":4153650}
+{"ts":"2026-11-03T15:59:59.061Z","tsMs":1793721599061,"event":"burst","windowId":"464958052-JD549H","client":"Firedancer 26.10.5","arm":"conflict","off":-1,"gap":20,"fireSlot":464958051,"est":"464958051.00","slotMs":"215.5","src":"http","reserved":4215675}
+{"ts":"2026-11-03T16:00:02.159Z","tsMs":1793721602159,"event":"burst","windowId":"464958064-6y7V8d","client":"AgaveBam 4.3.2","arm":"independent","off":-1,"gap":20,"fireSlot":464958063,"est":"464958063.00","slotMs":"215.7","src":"http","reserved":4277700}
+{"ts":"2026-11-03T16:00:19.795Z","tsMs":1793721619795,"event":"burst","windowId":"464958144-JD549H","client":"Firedancer 26.10.5","arm":"conflict","off":1,"gap":20,"fireSlot":464958145,"est":"464958145.01","slotMs":"216.0","src":"http","reserved":4339725}
+{"ts":"2026-11-03T16:00:37.716Z","tsMs":1793721637716,"event":"burst","windowId":"464958228-JD549H","client":"Firedancer 26.10.5","arm":"independent","off":-1,"gap":0,"fireSlot":464958227,"est":"464958227.00","slotMs":"214.9","src":"http","reserved":4401750}
+{"ts":"2026-11-03T16:00:52.137Z","tsMs":1793721652137,"event":"onchain_spend_check","spentLamports":4520800,"cap":40000000}
+{"ts":"2026-11-03T16:00:54.863Z","tsMs":1793721654863,"event":"burst","windowId":"464958308-5pPRHn","client":"JitoLabs 4.3.2","arm":"conflict","off":-1,"gap":20,"fireSlot":464958307,"est":"464958307.00","slotMs":"215.5","src":"http","reserved":4463775}
+{"ts":"2026-11-03T16:01:07.129Z","tsMs":1793721667129,"event":"burst","windowId":"464958360-Hz5aLv","client":"HarmonicAgave 4.3.2","arm":"conflict","off":1,"gap":20,"fireSlot":464958361,"est":"464958361.00","slotMs":"216.6","src":"http","reserved":4525800}
+{"ts":"2026-11-03T16:01:09.740Z","tsMs":1793721669740,"event":"burst","windowId":"464958372-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"conflict","off":1,"gap":20,"fireSlot":464958373,"est":"464958373.00","slotMs":"216.9","src":"http","reserved":4587825}
+{"ts":"2026-11-03T16:01:23.047Z","tsMs":1793721683047,"event":"burst","windowId":"464958436-7QQGNm","client":"Agave 4.3.2","arm":"conflict","off":-1,"gap":0,"fireSlot":464958435,"est":"464958435.00","slotMs":"217.3","src":"http","reserved":4649850}
+{"ts":"2026-11-03T16:01:45.173Z","tsMs":1793721705173,"event":"burst","windowId":"464958536-5pPRHn","client":"JitoLabs 4.3.2","arm":"conflict","off":1,"gap":20,"fireSlot":464958537,"est":"464958537.00","slotMs":"217.8","src":"http","reserved":4711875}
+{"ts":"2026-11-03T16:01:47.802Z","tsMs":1793721707802,"event":"onchain_spend_check","spentLamports":4830925,"cap":40000000}
+{"ts":"2026-11-03T16:01:50.335Z","tsMs":1793721710335,"event":"burst","windowId":"464958560-6y7V8d","client":"AgaveBam 4.3.2","arm":"independent","off":1,"gap":20,"fireSlot":464958561,"est":"464958561.00","slotMs":"218.1","src":"http","reserved":4773900}
+{"ts":"2026-11-03T16:01:53.073Z","tsMs":1793721713073,"event":"burst","windowId":"464958576-5Us18h","client":"Agave 4.3.2","arm":"independent","off":-1,"gap":0,"fireSlot":464958575,"est":"464958575.00","slotMs":"217.7","src":"http","reserved":4835925}
+{"ts":"2026-11-03T16:02:11.875Z","tsMs":1793721731875,"event":"burst","windowId":"464958664-EvnRmn","client":"HarmonicFiredancer 26.10.5","arm":"independent","off":-1,"gap":0,"fireSlot":464958663,"est":"464958663.00","slotMs":"217.4","src":"http","reserved":4897950}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"burst","windowId":"464958736-JD549H","client":"Firedancer 26.10.5","arm":"independent","off":1,"gap":0,"fireSlot":464958737,"est":"464959354.13","slotMs":"217.0","src":"http","reserved":4959975}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464958784-JD549H","now":"464959354.7","fireSlot":464958783}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464958808-7QQGNm","now":"464959354.7","fireSlot":464958809}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464958844-JD549H","now":"464959354.7","fireSlot":464958845}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464958892-EvnRmn","now":"464959354.7","fireSlot":464958893}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464958936-EvnRmn","now":"464959354.7","fireSlot":464958935}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464958956-Hz5aLv","now":"464959354.7","fireSlot":464958955}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464958988-EvnRmn","now":"464959354.7","fireSlot":464958989}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464959120-Hz5aLv","now":"464959354.7","fireSlot":464959121}
+{"ts":"2026-11-03T16:04:41.330Z","tsMs":1793721881330,"event":"window_skipped_late","windowId":"464959288-6y7V8d","now":"464959354.7","fireSlot":464959287}
+{"ts":"2026-11-03T16:06:07.459Z","tsMs":1793721967460,"event":"rpc_retry","method":"getLatestBlockhash","attempt":0,"code":0,"msg":"This operation was aborted","backoffMs":455}
+{"ts":"2026-11-03T16:06:08.090Z","tsMs":1793721968090,"event":"burst","windowId":"464959392-5pPRHn","client":"JitoLabs 4.3.2","arm":"independent","off":-1,"gap":0,"fireSlot":464959391,"est":"464959754.30","slotMs":"216.5","src":"http","reserved":5022000}
+{"ts":"2026-11-03T16:06:08.091Z","tsMs":1793721968091,"event":"window_skipped_late","windowId":"464959452-7QQGNm","now":"464959754.8","fireSlot":464959451}
+{"ts":"2026-11-03T16:06:08.091Z","tsMs":1793721968091,"event":"window_skipped_late","windowId":"464959472-5pPRHn","now":"464959754.8","fireSlot":464959473}
+{"ts":"2026-11-03T16:06:08.091Z","tsMs":1793721968091,"event":"window_skipped_late","windowId":"464959500-5pPRHn","now":"464959754.8","fireSlot":464959499}
+{"ts":"2026-11-03T16:06:08.091Z","tsMs":1793721968091,"event":"window_skipped_late","windowId":"464959536-5pPRHn","now":"464959754.8","fireSlot":464959537}
+{"ts":"2026-11-03T16:06:08.091Z","tsMs":1793721968091,"event":"window_skipped_late","windowId":"464959620-Hz5aLv","now":"464959754.8","fireSlot":464959619}
+{"ts":"2026-11-03T16:06:08.091Z","tsMs":1793721968091,"event":"window_skipped_late","windowId":"464959680-5Us18h","now":"464959754.8","fireSlot":464959681}
+{"ts":"2026-11-03T16:06:08.091Z","tsMs":1793721968091,"event":"window_skipped_late","windowId":"464959700-Hz5aLv","now":"464959754.8","fireSlot":464959701}
+{"ts":"2026-11-03T16:07:48.167Z","tsMs":1793722068167,"event":"burst","windowId":"464960220-7QQGNm","client":"Agave 4.3.2","arm":"independent","off":1,"gap":20,"fireSlot":464960221,"est":"464960221.00","slotMs":"215.7","src":"http","reserved":5084025}
+{"ts":"2026-11-03T16:08:24.449Z","tsMs":1793722104449,"event":"burst","windowId":"464960388-FBbqKv","client":"Firedancer 0.1.1","arm":"independent","off":1,"gap":0,"fireSlot":464960389,"est":"464960389.00","slotMs":"215.0","src":"http","reserved":5146050}
+{"ts":"2026-11-03T16:08:54.947Z","tsMs":1793722134947,"event":"burst","windowId":"464960528-6y7V8d","client":"AgaveBam 4.3.2","arm":"conflict","off":1,"gap":20,"fireSlot":464960529,"est":"464960529.69","slotMs":"215.8","src":"http","reserved":5208075}
+{"ts":"2026-11-03T16:13:57.854Z","tsMs":1793722437854,"event":"burst","windowId":"464961368-5Us18h","client":"Agave 4.3.2","arm":"conflict","off":-1,"gap":0,"fireSlot":464961367,"est":"464961930.84","slotMs":"215.9","src":"http","reserved":5270100}
+{"ts":"2026-11-03T16:13:57.855Z","tsMs":1793722437855,"event":"window_skipped_late","windowId":"464961392-5Us18h","now":"464961926.4","fireSlot":464961393}
+{"ts":"2026-11-03T16:13:57.855Z","tsMs":1793722437855,"event":"window_skipped_late","windowId":"464961732-7QQGNm","now":"464961926.4","fireSlot":464961731}
+{"ts":"2026-11-03T16:13:57.855Z","tsMs":1793722437855,"event":"window_skipped_late","windowId":"464961816-pSo1KZ","now":"464961926.4","fireSlot":464961815}
+{"ts":"2026-11-03T16:16:17.847Z","tsMs":1793722577847,"event":"burst","windowId":"464961972-6y7V8d","client":"AgaveBam 4.3.2","arm":"independent","off":-1,"gap":0,"fireSlot":464961971,"est":"464962571.41","slotMs":"216.8","src":"http","reserved":5332125}
+{"ts":"2026-11-03T16:16:17.848Z","tsMs":1793722577848,"event":"window_skipped_late","windowId":"464962056-FBbqKv","now":"464962567.3","fireSlot":464962055}
+{"ts":"2026-11-03T16:16:17.848Z","tsMs":1793722577848,"event":"window_skipped_late","windowId":"464962432-6y7V8d","now":"464962567.3","fireSlot":464962433}
+{"ts":"2026-11-03T16:16:17.848Z","tsMs":1793722577848,"event":"window_skipped_late","windowId":"464962500-5Us18h","now":"464962567.3","fireSlot":464962499}
+{"ts":"2026-11-03T16:17:16.466Z","tsMs":1793722636466,"event":"collect_resume","runId":"2026-11-03T15-49-19-542Z-live","probes":680,"windowsFired":85}
+{"ts":"2026-11-03T16:17:18.915Z","tsMs":1793722638915,"event":"statuses","sent":680,"landed":680}
+{"ts":"2026-11-03T16:17:20.472Z","tsMs":1793722640472,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":344}
+{"ts":"2026-11-03T16:17:22.090Z","tsMs":1793722642090,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":395}
+{"ts":"2026-11-03T16:17:23.696Z","tsMs":1793722643696,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":377}
+{"ts":"2026-11-03T16:17:25.338Z","tsMs":1793722645338,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":380}
+{"ts":"2026-11-03T16:17:27.390Z","tsMs":1793722647390,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":438}
+{"ts":"2026-11-03T16:17:29.505Z","tsMs":1793722649505,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":458}
+{"ts":"2026-11-03T16:17:31.450Z","tsMs":1793722651450,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":414}
+{"ts":"2026-11-03T16:17:33.142Z","tsMs":1793722653142,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":429}
+{"ts":"2026-11-03T16:17:35.048Z","tsMs":1793722655048,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":400}
+{"ts":"2026-11-03T16:17:36.674Z","tsMs":1793722656674,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":436}
+{"ts":"2026-11-03T16:17:38.325Z","tsMs":1793722658325,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":367}
+{"ts":"2026-11-03T16:17:40.288Z","tsMs":1793722660288,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":372}
+{"ts":"2026-11-03T16:17:42.155Z","tsMs":1793722662155,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":450}
+{"ts":"2026-11-03T16:17:44.244Z","tsMs":1793722664244,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":436}
+{"ts":"2026-11-03T16:17:46.079Z","tsMs":1793722666079,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":417}
+{"ts":"2026-11-03T16:17:47.830Z","tsMs":1793722667830,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":397}
+{"ts":"2026-11-03T16:17:48.286Z","tsMs":1793722668286,"event":"rpc_retry","method":"getBlock","attempt":1,"code":429,"msg":"HTTP 429","backoffMs":724}
+{"ts":"2026-11-03T16:17:50.338Z","tsMs":1793722670338,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":444}
+{"ts":"2026-11-03T16:17:51.974Z","tsMs":1793722671974,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":487}
+{"ts":"2026-11-03T16:17:54.265Z","tsMs":1793722674265,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":496}
+{"ts":"2026-11-03T16:17:56.362Z","tsMs":1793722676362,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":381}
+{"ts":"2026-11-03T16:17:58.120Z","tsMs":1793722678120,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":497}
+{"ts":"2026-11-03T16:18:00.175Z","tsMs":1793722680175,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":367}
+{"ts":"2026-11-03T16:18:01.776Z","tsMs":1793722681776,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":368}
+{"ts":"2026-11-03T16:18:03.236Z","tsMs":1793722683236,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":362}
+{"ts":"2026-11-03T16:18:04.897Z","tsMs":1793722684897,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":474}
+{"ts":"2026-11-03T16:18:06.562Z","tsMs":1793722686562,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":304}
+{"ts":"2026-11-03T16:18:08.049Z","tsMs":1793722688049,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":454}
+{"ts":"2026-11-03T16:18:10.013Z","tsMs":1793722690013,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":359}
+{"ts":"2026-11-03T16:18:11.558Z","tsMs":1793722691558,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":448}
+{"ts":"2026-11-03T16:18:13.278Z","tsMs":1793722693278,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":485}
+{"ts":"2026-11-03T16:18:15.306Z","tsMs":1793722695306,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":415}
+{"ts":"2026-11-03T16:18:16.813Z","tsMs":1793722696813,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":336}
+{"ts":"2026-11-03T16:18:18.480Z","tsMs":1793722698480,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":426}
+{"ts":"2026-11-03T16:18:20.094Z","tsMs":1793722700094,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":429}
+{"ts":"2026-11-03T16:18:21.932Z","tsMs":1793722701932,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":336}
+{"ts":"2026-11-03T16:18:23.389Z","tsMs":1793722703389,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":489}
+{"ts":"2026-11-03T16:18:25.096Z","tsMs":1793722705096,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":323}
+{"ts":"2026-11-03T16:18:26.861Z","tsMs":1793722706861,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":378}
+{"ts":"2026-11-03T16:18:28.450Z","tsMs":1793722708450,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":421}
+{"ts":"2026-11-03T16:18:30.306Z","tsMs":1793722710306,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":463}
+{"ts":"2026-11-03T16:18:32.162Z","tsMs":1793722712162,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":323}
+{"ts":"2026-11-03T16:18:33.575Z","tsMs":1793722713575,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":416}
+{"ts":"2026-11-03T16:18:35.114Z","tsMs":1793722715114,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":457}
+{"ts":"2026-11-03T16:18:36.851Z","tsMs":1793722716851,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":446}
+{"ts":"2026-11-03T16:18:38.414Z","tsMs":1793722718414,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":365}
+{"ts":"2026-11-03T16:18:40.066Z","tsMs":1793722720066,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":375}
+{"ts":"2026-11-03T16:18:41.582Z","tsMs":1793722721582,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":364}
+{"ts":"2026-11-03T16:18:43.471Z","tsMs":1793722723471,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":355}
+{"ts":"2026-11-03T16:18:44.355Z","tsMs":1793722724355,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":417}
+{"ts":"2026-11-03T16:18:45.976Z","tsMs":1793722725976,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":467}
+{"ts":"2026-11-03T16:18:47.608Z","tsMs":1793722727608,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":307}
+{"ts":"2026-11-03T16:18:48.981Z","tsMs":1793722728981,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":473}
+{"ts":"2026-11-03T16:18:50.516Z","tsMs":1793722730516,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":402}
+{"ts":"2026-11-03T16:18:52.332Z","tsMs":1793722732332,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":303}
+{"ts":"2026-11-03T16:18:53.922Z","tsMs":1793722733922,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":309}
+{"ts":"2026-11-03T16:18:55.567Z","tsMs":1793722735567,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":480}
+{"ts":"2026-11-03T16:18:57.389Z","tsMs":1793722737389,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":369}
+{"ts":"2026-11-03T16:18:59.142Z","tsMs":1793722739142,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":343}
+{"ts":"2026-11-03T16:19:00.895Z","tsMs":1793722740895,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":472}
+{"ts":"2026-11-03T16:19:02.917Z","tsMs":1793722742917,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":419}
+{"ts":"2026-11-03T16:19:03.516Z","tsMs":1793722743516,"event":"rpc_retry","method":"getBlock","attempt":1,"code":429,"msg":"HTTP 429","backoffMs":609}
+{"ts":"2026-11-03T16:19:05.371Z","tsMs":1793722745371,"event":"blocks_fetched","n":355,"skipped":0}
+{"ts":"2026-11-03T16:19:05.371Z","tsMs":1793722745371,"event":"collect_done","runId":"2026-11-03T15-49-19-542Z-live"}

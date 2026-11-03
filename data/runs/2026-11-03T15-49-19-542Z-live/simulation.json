@@ -1,0 +1,16 @@
+{
+ "payerUsed": "AqyF6icKCraPEg83hb59LF1Bsm9JYj89pCQE6TiNjPFb",
+ "err": null,
+ "unitsConsumed": 600,
+ "logs": [
+  "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+  "Program ComputeBudget111111111111111111111111111111 success",
+  "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+  "Program ComputeBudget111111111111111111111111111111 success",
+  "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+  "Program ComputeBudget111111111111111111111111111111 success",
+  "Program 11111111111111111111111111111111 invoke [1]",
+  "Program 11111111111111111111111111111111 success"
+ ],
+ "fee": 5100
+}
