@@ -1,0 +1,8 @@
+node_modules/
+dist/
+keys/*
+!keys/.gitkeep
+*.json.key
+.env
+data/runs/*/blocks_full/
+__pycache__/

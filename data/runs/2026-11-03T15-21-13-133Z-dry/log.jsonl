@@ -1,0 +1,36 @@
+{"ts":"2026-11-03T15:21:13.133Z","tsMs":1793719273133,"event":"run_start","runId":"2026-11-03T15-21-13-133Z-dry","dryRun":true,"rpc":"https://api.mainnet-beta.solana.com","sendEndpoints":1}
+{"ts":"2026-11-03T15:21:13.178Z","tsMs":1793719273178,"event":"payer","pubkey":"AqyF6icKCraPEg83hb59LF1Bsm9JYj89pCQE6TiNjPFb"}
+{"ts":"2026-11-03T15:21:13.702Z","tsMs":1793719273702,"event":"alpenglow_check","currentSlot":464947195,"alpenglowSlot":459653000,"side":"post-Alpenglow"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan","targets":12,"windows":85,"clients":"JitoLabs 4.4.0 | JitoLabs 4.3.2 | HarmonicFiredancer 26.10.5 | HarmonicFiredancer 26.10.4 | HarmonicAgave 4.4.0 | HarmonicAgave 4.3.2 | AgaveBam 4.4.0 | AgaveBam 4.3.2 | Firedancer 26.10.5 | Firedancer 0.1.1 | Rakurai 4.4.0 | Rakurai 4.3.2"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan_warning","w":"5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm (JitoLabs 4.3.2) only 7/12 windows in lookahead"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan_warning","w":"pSo1KZXgG1EGHch6pPmscfYhv3buXyaj2dR8WkVnkfc (HarmonicFiredancer 26.10.4) only 1/12 windows in lookahead"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan_warning","w":"EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f (HarmonicAgave 4.3.2) only 9/12 windows in lookahead"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan_warning","w":"6y7V8dL673XFzm9QyC5vvh3itWkp7wztahBd2yDqsyrK (AgaveBam 4.3.2) only 3/12 windows in lookahead"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan_warning","w":"JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB (Firedancer 26.10.5) only 9/12 windows in lookahead"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan_warning","w":"FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89 (Firedancer 0.1.1) only 3/12 windows in lookahead"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan_warning","w":"ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY (Rakurai 4.4.0) only 2/12 windows in lookahead"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"plan_warning","w":"7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf (Rakurai 4.3.2) only 3/12 windows in lookahead"}
+{"ts":"2026-11-03T15:21:13.885Z","tsMs":1793719273885,"event":"target","identity":"HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU","clientClass":"JitoLabs","clientVersion":"JitoLabs 4.4.0","stakeSol":16704339.555075496,"windowsAvailable":25}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm","clientClass":"JitoLabs","clientVersion":"JitoLabs 4.3.2","stakeSol":6004958.571272983,"windowsAvailable":11}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b","clientClass":"HarmonicFiredancer","clientVersion":"HarmonicFiredancer 26.10.5","stakeSol":0,"windowsAvailable":19}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"pSo1KZXgG1EGHch6pPmscfYhv3buXyaj2dR8WkVnkfc","clientClass":"HarmonicFiredancer","clientVersion":"HarmonicFiredancer 26.10.4","stakeSol":1628885.650185459,"windowsAvailable":2}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk","clientClass":"HarmonicAgave","clientVersion":"HarmonicAgave 4.4.0","stakeSol":17030640.78638297,"windowsAvailable":35}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f","clientClass":"HarmonicAgave","clientVersion":"HarmonicAgave 4.3.2","stakeSol":4096320.290838662,"windowsAvailable":11}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy","clientClass":"AgaveBam","clientVersion":"AgaveBam 4.4.0","stakeSol":13043664.457593951,"windowsAvailable":26}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"6y7V8dL673XFzm9QyC5vvh3itWkp7wztahBd2yDqsyrK","clientClass":"AgaveBam","clientVersion":"AgaveBam 4.3.2","stakeSol":2916668.65537848,"windowsAvailable":6}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB","clientClass":"Firedancer","clientVersion":"Firedancer 26.10.5","stakeSol":6210999.943105899,"windowsAvailable":10}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89","clientClass":"Firedancer","clientVersion":"Firedancer 0.1.1","stakeSol":1920412.812412376,"windowsAvailable":4}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY","clientClass":"Rakurai","clientVersion":"Rakurai 4.4.0","stakeSol":2469021.509657733,"windowsAvailable":4}
+{"ts":"2026-11-03T15:21:13.886Z","tsMs":1793719273886,"event":"target","identity":"7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf","clientClass":"Rakurai","clientVersion":"Rakurai 4.3.2","stakeSol":770918.072714896,"windowsAvailable":3}
+{"ts":"2026-11-03T15:21:13.887Z","tsMs":1793719273887,"event":"dry_run_window_limit","maxW":4}
+{"ts":"2026-11-03T15:21:13.888Z","tsMs":1793719273888,"event":"budget","capLamports":50000000,"alreadyReserved":0,"projectedLamports":5352805,"projectedSol":0.005352805}
+{"ts":"2026-11-03T15:21:14.714Z","tsMs":1793719274714,"event":"simulation","err":"null","unitsConsumed":600,"cuLimit":600,"payer":"83TSSS7qojPowqrrvH23mCrhEJjnJG2ygaf7FEq9ZgKC"}
+{"ts":"2026-11-03T15:21:15.006Z","tsMs":1793719275006,"event":"slotclock_ws","url":"wss://api.mainnet-beta.solana.com"}
+{"ts":"2026-11-03T15:21:26.742Z","tsMs":1793719286742,"event":"burst","windowId":"464947260-HEL1US","client":"JitoLabs 4.4.0","arm":"independent","off":-1,"gap":0,"fireSlot":464947259,"est":"464947259.00","slotMs":"200.0","src":"http","reserved":0}
+{"ts":"2026-11-03T15:21:29.430Z","tsMs":1793719289430,"event":"burst","windowId":"464947272-DRpbCB","client":"AgaveBam 4.4.0","arm":"independent","off":-1,"gap":0,"fireSlot":464947271,"est":"464947271.00","slotMs":"200.0","src":"http","reserved":0}
+{"ts":"2026-11-03T15:21:38.469Z","tsMs":1793719298469,"event":"burst","windowId":"464947312-HEL1US","client":"JitoLabs 4.4.0","arm":"independent","off":1,"gap":0,"fireSlot":464947313,"est":"464947313.01","slotMs":"210.7","src":"http","reserved":0}
+{"ts":"2026-11-03T15:21:40.464Z","tsMs":1793719300464,"event":"burst","windowId":"464947324-HEL1US","client":"JitoLabs 4.4.0","arm":"conflict","off":-1,"gap":0,"fireSlot":464947323,"est":"464947323.00","slotMs":"209.8","src":"http","reserved":0}
+{"ts":"2026-11-03T15:21:41.797Z","tsMs":1793719301797,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":412}
+{"ts":"2026-11-03T15:21:43.372Z","tsMs":1793719303372,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":451}
+{"ts":"2026-11-03T15:21:44.541Z","tsMs":1793719304541,"event":"blocks_fetched","n":16,"skipped":0}
+{"ts":"2026-11-03T15:21:44.541Z","tsMs":1793719304541,"event":"run_done","runId":"2026-11-03T15-21-13-133Z-dry","probes":32,"aborted":null}

@@ -1,0 +1,60 @@
+{
+ "dryRun": true,
+ "confirmSpend": false,
+ "maxSpendSol": 0.05,
+ "spendSafetyMargin": 0,
+ "rpcUrl": "https://api.mainnet-beta.solana.com",
+ "wsUrl": "",
+ "sendRpcUrls": [
+  "https://api.mainnet-beta.solana.com"
+ ],
+ "rpcMaxRps": 6,
+ "keypairPath": "/keys/payer.json",
+ "subWalletsPath": "/keys/subwallets.json",
+ "minValidators": 6,
+ "minClients": 3,
+ "perClientTargets": 2,
+ "windowsPerValidator": 12,
+ "lookaheadSlots": 18000,
+ "minLeadSlots": 40,
+ "fireSlotOffsets": [
+  -1,
+  1
+ ],
+ "maxClientClasses": 6,
+ "targetIdentities": [],
+ "excludeClients": [
+  "unknown"
+ ],
+ "minWindowGapSlots": 10,
+ "slotMs": 200,
+ "txPerWindow": 8,
+ "sendGapsMs": [
+  0,
+  20
+ ],
+ "priorityLevelsLamports": [
+  0,
+  5,
+  20,
+  100,
+  400,
+  1500,
+  5000,
+  15000
+ ],
+ "cuLimit": 600,
+ "loadedAccountsDataLimit": 32768,
+ "arms": [
+  "independent",
+  "conflict"
+ ],
+ "lamportsPerSignature": 5000,
+ "statusTimeoutMs": 60000,
+ "saveFullBlocks": false,
+ "passiveBlocksPerClient": 6,
+ "passiveRangeSlots": 3000,
+ "dataDir": "/data",
+ "runId": "",
+ "seed": ""
+}

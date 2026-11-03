@@ -1,0 +1,205 @@
+{
+ "createdAt": "2026-11-03T15:21:13.885Z",
+ "seed": "2026-11-03T15-21-13-133Z-dry",
+ "currentSlot": 464947195,
+ "targets": [
+  {
+   "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+   "clientClass": "JitoLabs",
+   "clientVersion": "JitoLabs 4.4.0",
+   "stakeSol": 16704339.555075496,
+   "windowsAvailable": 25
+  },
+  {
+   "identity": "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm",
+   "clientClass": "JitoLabs",
+   "clientVersion": "JitoLabs 4.3.2",
+   "stakeSol": 6004958.571272983,
+   "windowsAvailable": 11
+  },
+  {
+   "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+   "clientClass": "HarmonicFiredancer",
+   "clientVersion": "HarmonicFiredancer 26.10.5",
+   "stakeSol": 0,
+   "windowsAvailable": 19
+  },
+  {
+   "identity": "pSo1KZXgG1EGHch6pPmscfYhv3buXyaj2dR8WkVnkfc",
+   "clientClass": "HarmonicFiredancer",
+   "clientVersion": "HarmonicFiredancer 26.10.4",
+   "stakeSol": 1628885.650185459,
+   "windowsAvailable": 2
+  },
+  {
+   "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+   "clientClass": "HarmonicAgave",
+   "clientVersion": "HarmonicAgave 4.4.0",
+   "stakeSol": 17030640.78638297,
+   "windowsAvailable": 35
+  },
+  {
+   "identity": "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f",
+   "clientClass": "HarmonicAgave",
+   "clientVersion": "HarmonicAgave 4.3.2",
+   "stakeSol": 4096320.290838662,
+   "windowsAvailable": 11
+  },
+  {
+   "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+   "clientClass": "AgaveBam",
+   "clientVersion": "AgaveBam 4.4.0",
+   "stakeSol": 13043664.457593951,
+   "windowsAvailable": 26
+  },
+  {
+   "identity": "6y7V8dL673XFzm9QyC5vvh3itWkp7wztahBd2yDqsyrK",
+   "clientClass": "AgaveBam",
+   "clientVersion": "AgaveBam 4.3.2",
+   "stakeSol": 2916668.65537848,
+   "windowsAvailable": 6
+  },
+  {
+   "identity": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+   "clientClass": "Firedancer",
+   "clientVersion": "Firedancer 26.10.5",
+   "stakeSol": 6210999.943105899,
+   "windowsAvailable": 10
+  },
+  {
+   "identity": "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89",
+   "clientClass": "Firedancer",
+   "clientVersion": "Firedancer 0.1.1",
+   "stakeSol": 1920412.812412376,
+   "windowsAvailable": 4
+  },
+  {
+   "identity": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+   "clientClass": "Rakurai",
+   "clientVersion": "Rakurai 4.4.0",
+   "stakeSol": 2469021.509657733,
+   "windowsAvailable": 4
+  },
+  {
+   "identity": "7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf",
+   "clientClass": "Rakurai",
+   "clientVersion": "Rakurai 4.3.2",
+   "stakeSol": 770918.072714896,
+   "windowsAvailable": 3
+  }
+ ],
+ "windows": [
+  {
+   "windowId": "464947260-HEL1US",
+   "leader": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+   "clientClass": "JitoLabs",
+   "clientVersion": "JitoLabs 4.4.0",
+   "startSlot": 464947260,
+   "endSlot": 464947263,
+   "arm": "independent",
+   "fireOffset": -1,
+   "fireSlot": 464947259,
+   "sendGapMs": 0,
+   "priorityBySendOrder": [
+    100,
+    400,
+    5000,
+    1500,
+    0,
+    15000,
+    5,
+    20
+   ]
+  },
+  {
+   "windowId": "464947272-DRpbCB",
+   "leader": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+   "clientClass": "AgaveBam",
+   "clientVersion": "AgaveBam 4.4.0",
+   "startSlot": 464947272,
+   "endSlot": 464947275,
+   "arm": "independent",
+   "fireOffset": -1,
+   "fireSlot": 464947271,
+   "sendGapMs": 0,
+   "priorityBySendOrder": [
+    15000,
+    5,
+    0,
+    5000,
+    100,
+    20,
+    400,
+    1500
+   ]
+  },
+  {
+   "windowId": "464947312-HEL1US",
+   "leader": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+   "clientClass": "JitoLabs",
+   "clientVersion": "JitoLabs 4.4.0",
+   "startSlot": 464947312,
+   "endSlot": 464947315,
+   "arm": "independent",
+   "fireOffset": 1,
+   "fireSlot": 464947313,
+   "sendGapMs": 0,
+   "priorityBySendOrder": [
+    5000,
+    1500,
+    20,
+    400,
+    100,
+    15000,
+    5,
+    0
+   ]
+  },
+  {
+   "windowId": "464947324-HEL1US",
+   "leader": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+   "clientClass": "JitoLabs",
+   "clientVersion": "JitoLabs 4.4.0",
+   "startSlot": 464947324,
+   "endSlot": 464947327,
+   "arm": "conflict",
+   "fireOffset": -1,
+   "fireSlot": 464947323,
+   "sendGapMs": 0,
+   "priorityBySendOrder": [
+    400,
+    1500,
+    5,
+    5000,
+    20,
+    0,
+    15000,
+    100
+   ]
+  }
+ ],
+ "clientsCovered": [
+  "JitoLabs 4.4.0",
+  "JitoLabs 4.3.2",
+  "HarmonicFiredancer 26.10.5",
+  "HarmonicFiredancer 26.10.4",
+  "HarmonicAgave 4.4.0",
+  "HarmonicAgave 4.3.2",
+  "AgaveBam 4.4.0",
+  "AgaveBam 4.3.2",
+  "Firedancer 26.10.5",
+  "Firedancer 0.1.1",
+  "Rakurai 4.4.0",
+  "Rakurai 4.3.2"
+ ],
+ "warnings": [
+  "5pPRHniefFjkiaArbGX3Y8NUysJmQ9tMZg3FrFGwHzSm (JitoLabs 4.3.2) only 7/12 windows in lookahead",
+  "pSo1KZXgG1EGHch6pPmscfYhv3buXyaj2dR8WkVnkfc (HarmonicFiredancer 26.10.4) only 1/12 windows in lookahead",
+  "EkvdKhULbMFqjKBKotAzGi3kwMvMpYNDKJXXQQmi6C1f (HarmonicAgave 4.3.2) only 9/12 windows in lookahead",
+  "6y7V8dL673XFzm9QyC5vvh3itWkp7wztahBd2yDqsyrK (AgaveBam 4.3.2) only 3/12 windows in lookahead",
+  "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB (Firedancer 26.10.5) only 9/12 windows in lookahead",
+  "FBbqKvwLfKGZrKrfSbPJz4ymQ7zMarhRyZtu1RBkSe89 (Firedancer 0.1.1) only 3/12 windows in lookahead",
+  "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY (Rakurai 4.4.0) only 2/12 windows in lookahead",
+  "7PdKhpKz7T39vZHFL1UfcYNDsLvay6hp4KPQq1aUckFf (Rakurai 4.3.2) only 3/12 windows in lookahead"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "solana-tx-ordering",
+  "version": "1.0.0",
+  "description": "Measure how Solana mainnet leaders (Agave, Jito, Firedancer, BAM, Harmonic, ...) order transactions inside a block",
+  "scripts": {
+    "build": "tsc -p .",
+    "test": "node --test test/unit.test.js",
+    "experiment": "node dist/main.js experiment",
+    "passive": "node dist/main.js passive",
+    "plan": "node dist/main.js plan",
+    "keygen": "node dist/main.js keygen",
+    "reclaim": "node dist/main.js reclaim",
+    "analyze": "python3 analysis/analyze.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@solana/web3.js": "^1.99.0",
+    "bs58": "^6.0.0",
+    "ws": "^8.22.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.5",
+    "@types/ws": "^8.18.2",
+    "typescript": "^5.9.3"
+  }
+}

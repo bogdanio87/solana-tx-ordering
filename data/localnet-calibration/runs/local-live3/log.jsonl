@@ -1,0 +1,39 @@
+{"ts":"2026-11-03T15:08:18.663Z","tsMs":1793718498663,"event":"run_start","runId":"local-live3","dryRun":false,"rpc":"http://127.0.0.1:8899","sendEndpoints":1}
+{"ts":"2026-11-03T15:08:18.703Z","tsMs":1793718498703,"event":"payer","pubkey":"BEZxbmoH3BTBxkpF1YCm2RLhgKSR2Btu5aAGFMWvx9Qx"}
+{"ts":"2026-11-03T15:08:19.215Z","tsMs":1793718499215,"event":"plan","targets":1,"windows":8,"clients":"Agave 4.3.2"}
+{"ts":"2026-11-03T15:08:19.215Z","tsMs":1793718499215,"event":"target","identity":"8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz","clientClass":"Agave","clientVersion":"Agave 4.3.2","stakeSol":999999.99771712,"windowsAvailable":140}
+{"ts":"2026-11-03T15:08:19.216Z","tsMs":1793718499216,"event":"budget","capLamports":50000000,"alreadyReserved":346075,"projectedLamports":576264,"projectedSol":0.000576264}
+{"ts":"2026-11-03T15:08:19.587Z","tsMs":1793718499587,"event":"simulation","err":"null","unitsConsumed":600,"cuLimit":600,"payer":"BEZxbmoH3BTBxkpF1YCm2RLhgKSR2Btu5aAGFMWvx9Qx"}
+{"ts":"2026-11-03T15:08:19.712Z","tsMs":1793718499712,"event":"balances","payer":9999653925,"subs":"0,0,0,0,0,0,0,0","total":9999653925}
+{"ts":"2026-11-03T15:08:24.216Z","tsMs":1793718504216,"event":"funded_subwallet","i":0,"pubkey":"4nia6ahwmCSHzQGjXsGeJK1MB226QFp37ngctjCQrdLJ","lamports":990884,"sig":"5i26LWAQhjjAZ2MSzB4pjjxgnwBsCrLVma1UHcnTJNsgXTM4WjT6Rmfi7zqFgUVLzd9hq1RCyUu8jjStTpWzgHKi"}
+{"ts":"2026-11-03T15:08:28.470Z","tsMs":1793718508470,"event":"funded_subwallet","i":1,"pubkey":"7udJjVEjyreD6mrWk7qRUgAvJC6K3SAvpM6Rw1w2FUDk","lamports":990884,"sig":"Y1Fz1wkkMh9aLnyJh5EVgYeJwCqzvPot4UWo5tp4TTRNzXejNffvrjCMoMjJ2xYqTjTkWDy3KaHNKnWAobouGMV"}
+{"ts":"2026-11-03T15:08:32.724Z","tsMs":1793718512724,"event":"funded_subwallet","i":2,"pubkey":"3inqYjH9q4EdrHjoDRqkLvzSXKFeKDWyxuVP4kYwazVo","lamports":990884,"sig":"2yUvJC9kos5aBwVLivjXHu69SdFUS4zjnZX4ap3jtgafeyTqdEoGjNyHYH5LQYPDG7Fq6qLivudA5J8XbGw3rNbS"}
+{"ts":"2026-11-03T15:08:34.977Z","tsMs":1793718514977,"event":"funded_subwallet","i":3,"pubkey":"HjXQ743earPP3HvGj4V1cKz1SzvzjDw8wz2QqpCnjend","lamports":990884,"sig":"2fKKGjcqwVeqpNEHxtpN7mXjd9V8kcwwC8w9JUNE1Z8HRbCaM2ML4UePe2ezv6TxUhxeN2k7xgKkoQmGbLgFzait"}
+{"ts":"2026-11-03T15:08:39.231Z","tsMs":1793718519231,"event":"funded_subwallet","i":4,"pubkey":"HQih1gmqJQg3dV4ecSoM2ajSNfcwYqQi7CzygdmAaDie","lamports":990884,"sig":"U3pBXEAWDF1FPLEGgPZPhFRavgSQ3tvdz6Jq3ES2kugBhz9kv77RtcXAdRaNCjNJUeCvJQvcWU6rWtqfo4fu8hR"}
+{"ts":"2026-11-03T15:08:43.485Z","tsMs":1793718523485,"event":"funded_subwallet","i":5,"pubkey":"2dTquTK6Mc4Ga5zW9NvmEFMTQj19RrdhGwQbAMXzci1j","lamports":990884,"sig":"2t33a5HxvsNk8Ceb7jkbQ6ABw9hxDZ32Js6Temg83mYq4abvzsV8x9FoBbEvmaLzhcD3pCBq2778W9k2tXAS6wZv"}
+{"ts":"2026-11-03T15:08:47.740Z","tsMs":1793718527740,"event":"funded_subwallet","i":6,"pubkey":"2b7TdTsoRpfebzkKCEpReVwS14sPDgtbXpyJjPaxY94H","lamports":990884,"sig":"DsV3B7kLNXXDJcxSV1gontyWZ5XN7BjxdLidYU2vnLaYcSXY99DvUUkaXvbjJWj2gbrzNpvtJM3J1EVVvVttpC5"}
+{"ts":"2026-11-03T15:08:49.992Z","tsMs":1793718529992,"event":"funded_subwallet","i":7,"pubkey":"6TNr23enhHQXpFkzqsV2h6Tj77vE2aBkr7iXSmeETJXv","lamports":990884,"sig":"2EKnfZVXC87iQC7SuhtGAdVuZUNmGRbE6zAB7v6rXV3HD9qt2yjg69jqBsyyxKLuHmRBCHRsHbHTajQWhXNUeoLi"}
+{"ts":"2026-11-03T15:08:50.119Z","tsMs":1793718530119,"event":"replanned_after_funding","windows":8}
+{"ts":"2026-11-03T15:08:50.249Z","tsMs":1793718530249,"event":"slotclock_ws","url":"ws://127.0.0.1:8900"}
+{"ts":"2026-11-03T15:09:00.520Z","tsMs":1793718540520,"event":"onchain_spend_check","spentLamports":386075,"cap":50000000}
+{"ts":"2026-11-03T15:09:05.534Z","tsMs":1793718545534,"event":"burst","windowId":"812-8mN7GM","client":"Agave 4.3.2","arm":"independent","off":-1,"gap":0,"fireSlot":811,"est":"811.00","slotMs":"400.0","src":"ws","reserved":448100}
+{"ts":"2026-11-03T15:09:11.395Z","tsMs":1793718551395,"event":"burst","windowId":"824-8mN7GM","client":"Agave 4.3.2","arm":"independent","off":1,"gap":0,"fireSlot":825,"est":"825.00","slotMs":"406.6","src":"ws","reserved":510125}
+{"ts":"2026-11-03T15:09:15.575Z","tsMs":1793718555575,"event":"burst","windowId":"836-8mN7GM","client":"Agave 4.3.2","arm":"conflict","off":-1,"gap":0,"fireSlot":835,"est":"835.00","slotMs":"408.5","src":"ws","reserved":572150}
+{"ts":"2026-11-03T15:09:21.440Z","tsMs":1793718561440,"event":"burst","windowId":"848-8mN7GM","client":"Agave 4.3.2","arm":"conflict","off":1,"gap":0,"fireSlot":849,"est":"849.00","slotMs":"410.4","src":"ws","reserved":634175}
+{"ts":"2026-11-03T15:09:25.768Z","tsMs":1793718565768,"event":"burst","windowId":"860-8mN7GM","client":"Agave 4.3.2","arm":"independent","off":-1,"gap":20,"fireSlot":859,"est":"859.00","slotMs":"411.5","src":"ws","reserved":696200}
+{"ts":"2026-11-03T15:09:26.465Z","tsMs":1793718566465,"event":"onchain_spend_check","spentLamports":696200,"cap":50000000}
+{"ts":"2026-11-03T15:09:31.622Z","tsMs":1793718571622,"event":"burst","windowId":"872-8mN7GM","client":"Agave 4.3.2","arm":"independent","off":1,"gap":20,"fireSlot":873,"est":"873.00","slotMs":"412.4","src":"ws","reserved":758225}
+{"ts":"2026-11-03T15:09:35.802Z","tsMs":1793718575802,"event":"burst","windowId":"884-8mN7GM","client":"Agave 4.3.2","arm":"conflict","off":-1,"gap":20,"fireSlot":883,"est":"883.00","slotMs":"412.9","src":"ws","reserved":820250}
+{"ts":"2026-11-03T15:09:41.701Z","tsMs":1793718581701,"event":"burst","windowId":"896-8mN7GM","client":"Agave 4.3.2","arm":"conflict","off":1,"gap":20,"fireSlot":897,"est":"897.00","slotMs":"413.9","src":"ws","reserved":882275}
+{"ts":"2026-11-03T15:09:45.708Z","tsMs":1793718585708,"event":"statuses","sent":64,"landed":64}
+{"ts":"2026-11-03T15:09:50.212Z","tsMs":1793718590212,"event":"blocks_fetched","n":36,"skipped":0}
+{"ts":"2026-11-03T15:09:54.711Z","tsMs":1793718594712,"event":"swept","i":0,"lamports":954284,"sig":"4VL7uBqCa2karDTQU4mPtZBwmG2WKgWXAjxTXjGCJTSyCvqn7R9VeXR69X1hifRMzPfekYSmEuMJeRXkWMpG6Djz"}
+{"ts":"2026-11-03T15:09:58.966Z","tsMs":1793718598966,"event":"swept","i":1,"lamports":965364,"sig":"33qEFCntnVMu6pStRxSVZUkmd2dyJ61nStVHzJQLTyq86K1ZYCMgTUZrEjhEj1WSE1KCenFzuJEMWc4DTiS9hFLg"}
+{"ts":"2026-11-03T15:10:03.219Z","tsMs":1793718603219,"event":"swept","i":2,"lamports":949359,"sig":"8JUvKjWeiR8doedQqnaqJRGqVnZapNtSnn5Nspyz761q2yih7B6814u3b1iwyrptNZ3LS5wuBf8j6J8PxgbzTrc"}
+{"ts":"2026-11-03T15:10:07.475Z","tsMs":1793718607475,"event":"swept","i":3,"lamports":965464,"sig":"3dUJ9b2oMp8ccpGKVMGyzo7YCu8Sdv8rFMpEdoVW68WR9pxArUMwhHupKUi14ZqVVpqHAyvsvq11zqVJesykM7wb"}
+{"ts":"2026-11-03T15:10:09.727Z","tsMs":1793718609727,"event":"swept","i":4,"lamports":955864,"sig":"YPsiKDUVEAsoBcenw8ZxuWJkgMSgZZZMokW45JfBEsXB7eCSrAAeY6No4BCf9cuLpg5qkQyxBkgxEwycqpnjS6T"}
+{"ts":"2026-11-03T15:10:13.981Z","tsMs":1793718613981,"event":"swept","i":5,"lamports":934379,"sig":"4EvwMhW1GD1TA543Kgz2hymzdJuCuf9zqDfKn2rvMuk1k6eg1fZ7U5E2TeWTsXri1es4TdEt8hpCBTXYPzEVHddj"}
+{"ts":"2026-11-03T15:10:18.233Z","tsMs":1793718618233,"event":"swept","i":6,"lamports":950474,"sig":"62WNQ2YD9P7eGLVVqeAn8KKtDkBdbc7PurUPVqCXCCxWzB23TMkAhQ8uWoDdMPTSQijp3Z7b8rLo83ktdEvxrx4X"}
+{"ts":"2026-11-03T15:10:22.486Z","tsMs":1793718622486,"event":"swept","i":7,"lamports":963784,"sig":"3vSE6CXuTosFLCqJjUZL4V6wSJex2j8YD2eFLQ2J71EfoAtS7HkzmfjDh6sDT8iVCsxH43Uiudpqs74FCaXbQoFm"}
+{"ts":"2026-11-03T15:10:22.489Z","tsMs":1793718622489,"event":"final_balance","total":9999077725,"spentOnchain":922275,"reservedLedger":922275,"cap":50000000}
+{"ts":"2026-11-03T15:10:22.489Z","tsMs":1793718622489,"event":"run_done","runId":"local-live3","probes":64,"aborted":null}

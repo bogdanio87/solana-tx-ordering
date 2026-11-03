@@ -1,0 +1,52 @@
+# One command:  docker compose up --build
+# Default is a DRY RUN against mainnet public RPC: real leader schedule, real windows, probe transactions
+# built and signed with a throwaway key but NOT sent. Spending requires BOTH:
+#   DRY_RUN=false  and  I_UNDERSTAND_THIS_SPENDS_SOL=yes    (hard cap: MAX_SPEND_SOL, default 0.05)
+x-common-env: &env
+  DRY_RUN: ${DRY_RUN:-true}
+  I_UNDERSTAND_THIS_SPENDS_SOL: ${I_UNDERSTAND_THIS_SPENDS_SOL:-no}
+  MAX_SPEND_SOL: ${MAX_SPEND_SOL:-0.05}
+  RPC_URL: ${RPC_URL:-https://api.mainnet-beta.solana.com}
+  WS_URL: ${WS_URL:-}
+  SEND_RPC_URLS: ${SEND_RPC_URLS:-https://api.mainnet-beta.solana.com}
+  RPC_MAX_RPS: ${RPC_MAX_RPS:-6}
+  WINDOWS_PER_VALIDATOR: ${WINDOWS_PER_VALIDATOR:-12}
+  PER_CLIENT_TARGETS: ${PER_CLIENT_TARGETS:-2}
+  MAX_CLIENT_CLASSES: ${MAX_CLIENT_CLASSES:-6}
+  TARGET_IDENTITIES: ${TARGET_IDENTITIES:-}
+  TX_PER_WINDOW: ${TX_PER_WINDOW:-8}
+  PRIORITY_LEVELS_LAMPORTS: ${PRIORITY_LEVELS_LAMPORTS:-0,5,20,100,400,1500,5000,15000}
+  SEND_GAPS_MS: ${SEND_GAPS_MS:-0,20}
+  FIRE_SLOT_OFFSETS: ${FIRE_SLOT_OFFSETS:--1,1}
+  ARMS: ${ARMS:-independent,conflict}
+  LOOKAHEAD_SLOTS: ${LOOKAHEAD_SLOTS:-18000}
+  DRY_RUN_MAX_WINDOWS: ${DRY_RUN_MAX_WINDOWS:-12}
+  PASSIVE_BLOCKS_PER_CLIENT: ${PASSIVE_BLOCKS_PER_CLIENT:-6}
+  SAVE_FULL_BLOCKS: ${SAVE_FULL_BLOCKS:-false}
+  SKIP_PASSIVE: ${SKIP_PASSIVE:-false}
+  RUN_ID: ${RUN_ID:-}
+  SEED: ${SEED:-}
+  DATA_DIR: /data
+
+services:
+  experiment:
+    build: .
+    image: solana-tx-ordering:latest
+    environment: *env
+    volumes:
+      - ./data:/data
+      - ./keys:/keys          # payer.json / subwallets.json live here, gitignored, never in the image
+    command: ["sh", "scripts/pipeline.sh"]
+
+  analyze:
+    image: solana-tx-ordering:latest
+    depends_on:
+      experiment:
+        condition: service_completed_successfully
+    environment:
+      DATA_DIR: /data
+      OUT_DIR: /out
+    volumes:
+      - ./data:/data:ro
+      - ./analysis/out:/out
+    command: ["python3", "analysis/analyze.py"]

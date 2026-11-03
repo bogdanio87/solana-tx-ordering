@@ -1,0 +1,196 @@
+{
+ "createdAt": "2026-11-03T15:08:19.215Z",
+ "seed": "local-live3",
+ "currentSlot": 772,
+ "targets": [
+  {
+   "identity": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "stakeSol": 999999.99771712,
+   "windowsAvailable": 140
+  }
+ ],
+ "windows": [
+  {
+   "windowId": "812-8mN7GM",
+   "leader": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "startSlot": 812,
+   "endSlot": 815,
+   "arm": "independent",
+   "fireOffset": -1,
+   "fireSlot": 811,
+   "sendGapMs": 0,
+   "priorityBySendOrder": [
+    5000,
+    0,
+    1500,
+    400,
+    20,
+    5,
+    15000,
+    100
+   ]
+  },
+  {
+   "windowId": "824-8mN7GM",
+   "leader": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "startSlot": 824,
+   "endSlot": 827,
+   "arm": "independent",
+   "fireOffset": 1,
+   "fireSlot": 825,
+   "sendGapMs": 0,
+   "priorityBySendOrder": [
+    100,
+    20,
+    5,
+    0,
+    5000,
+    15000,
+    400,
+    1500
+   ]
+  },
+  {
+   "windowId": "836-8mN7GM",
+   "leader": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "startSlot": 836,
+   "endSlot": 839,
+   "arm": "conflict",
+   "fireOffset": -1,
+   "fireSlot": 835,
+   "sendGapMs": 0,
+   "priorityBySendOrder": [
+    5,
+    5000,
+    1500,
+    15000,
+    400,
+    100,
+    20,
+    0
+   ]
+  },
+  {
+   "windowId": "848-8mN7GM",
+   "leader": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "startSlot": 848,
+   "endSlot": 851,
+   "arm": "conflict",
+   "fireOffset": 1,
+   "fireSlot": 849,
+   "sendGapMs": 0,
+   "priorityBySendOrder": [
+    20,
+    15000,
+    5,
+    0,
+    100,
+    400,
+    1500,
+    5000
+   ]
+  },
+  {
+   "windowId": "860-8mN7GM",
+   "leader": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "startSlot": 860,
+   "endSlot": 863,
+   "arm": "independent",
+   "fireOffset": -1,
+   "fireSlot": 859,
+   "sendGapMs": 20,
+   "priorityBySendOrder": [
+    1500,
+    100,
+    20,
+    0,
+    5000,
+    15000,
+    5,
+    400
+   ]
+  },
+  {
+   "windowId": "872-8mN7GM",
+   "leader": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "startSlot": 872,
+   "endSlot": 875,
+   "arm": "independent",
+   "fireOffset": 1,
+   "fireSlot": 873,
+   "sendGapMs": 20,
+   "priorityBySendOrder": [
+    5000,
+    400,
+    15000,
+    20,
+    0,
+    1500,
+    5,
+    100
+   ]
+  },
+  {
+   "windowId": "884-8mN7GM",
+   "leader": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "startSlot": 884,
+   "endSlot": 887,
+   "arm": "conflict",
+   "fireOffset": -1,
+   "fireSlot": 883,
+   "sendGapMs": 20,
+   "priorityBySendOrder": [
+    20,
+    1500,
+    400,
+    100,
+    15000,
+    5,
+    5000,
+    0
+   ]
+  },
+  {
+   "windowId": "896-8mN7GM",
+   "leader": "8mN7GMjq5MenGEstpkVReWzUAboh7JniaQeHwn3LNABz",
+   "clientClass": "Agave",
+   "clientVersion": "Agave 4.3.2",
+   "startSlot": 896,
+   "endSlot": 899,
+   "arm": "conflict",
+   "fireOffset": 1,
+   "fireSlot": 897,
+   "sendGapMs": 20,
+   "priorityBySendOrder": [
+    400,
+    5000,
+    1500,
+    100,
+    0,
+    20,
+    15000,
+    5
+   ]
+  }
+ ],
+ "clientsCovered": [
+  "Agave 4.3.2"
+ ],
+ "warnings": []
+}

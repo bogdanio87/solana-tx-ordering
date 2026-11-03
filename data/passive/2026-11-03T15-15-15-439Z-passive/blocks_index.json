@@ -1,0 +1,366 @@
+[
+ {
+  "slot": 464942842,
+  "leader": "1ggyZGbYtEo1WrV1kmXfnvhPeSPxrYAXoDBeApnszLT",
+  "clientClass": "JitoLabs",
+  "clientVersion": "JitoLabs 4.4.0-rc.1",
+  "nTx": 339
+ },
+ {
+  "slot": 464943065,
+  "leader": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
+  "clientClass": "JitoLabs",
+  "clientVersion": "JitoLabs 4.4.0",
+  "nTx": 237
+ },
+ {
+  "slot": 464943357,
+  "leader": "3cZSHGfNdaULpFAvGbWbxpVwzXB4gHdk8NFucPNR5pgA",
+  "clientClass": "JitoLabs",
+  "clientVersion": "JitoLabs 4.4.0",
+  "nTx": 271
+ },
+ {
+  "slot": 464943529,
+  "leader": "AEHqTB2RtJjegsR2ePjvoJSm6AA5pnYKWVbcsn6kqTBD",
+  "clientClass": "JitoLabs",
+  "clientVersion": "JitoLabs 4.3.2",
+  "nTx": 236
+ },
+ {
+  "slot": 464944712,
+  "leader": "FbYX2uN573G5WsgiPdHU6fS5PNUyjdXfGfpZNkYUuT4k",
+  "clientClass": "JitoLabs",
+  "clientVersion": "JitoLabs 4.3.2",
+  "nTx": 555
+ },
+ {
+  "slot": 464944808,
+  "leader": "DDnAqxJVFo2GVTujibHt5cjevHMSE9bo8HJaydHoshdp",
+  "clientClass": "JitoLabs",
+  "clientVersion": "JitoLabs 4.4.0",
+  "nTx": 267
+ },
+ {
+  "slot": 464942568,
+  "leader": "87CcUxpyR72ZyfaZirj86mqkbk5uuU2EfnwTegVMLJL5",
+  "clientClass": "HarmonicAgave",
+  "clientVersion": "HarmonicAgave 4.4.0",
+  "nTx": 692
+ },
+ {
+  "slot": 464943183,
+  "leader": "FzQqaDStQQHs52YKeCnDovwSqvyZBCgs2kJcmvoFZwaS",
+  "clientClass": "HarmonicAgave",
+  "clientVersion": "HarmonicAgave 4.4.0",
+  "nTx": 235
+ },
+ {
+  "slot": 464943834,
+  "leader": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
+  "clientClass": "HarmonicAgave",
+  "clientVersion": "HarmonicAgave 4.4.0",
+  "nTx": 303
+ },
+ {
+  "slot": 464944324,
+  "leader": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
+  "clientClass": "HarmonicAgave",
+  "clientVersion": "HarmonicAgave 4.4.0",
+  "nTx": 512
+ },
+ {
+  "slot": 464944584,
+  "leader": "FzQqaDStQQHs52YKeCnDovwSqvyZBCgs2kJcmvoFZwaS",
+  "clientClass": "HarmonicAgave",
+  "clientVersion": "HarmonicAgave 4.4.0",
+  "nTx": 355
+ },
+ {
+  "slot": 464945112,
+  "leader": "Bi9vzmxLRWRNMsVh4ECBnitNZapUmQu3W8FZdJtfSZ8f",
+  "clientClass": "HarmonicAgave",
+  "clientVersion": "HarmonicAgave 4.3.2",
+  "nTx": 461
+ },
+ {
+  "slot": 464943278,
+  "leader": "5ejbTALcBsKQ7Cj1iSuu2mY5jqbYHqh9gF5ERXLiYj1z",
+  "clientClass": "AgaveBam",
+  "clientVersion": "AgaveBam 4.3.2",
+  "nTx": 263
+ },
+ {
+  "slot": 464943539,
+  "leader": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
+  "clientClass": "AgaveBam",
+  "clientVersion": "AgaveBam 4.4.0",
+  "nTx": 289
+ },
+ {
+  "slot": 464943623,
+  "leader": "CLsFr1KZVbAyz16iFpwg2e4hiekR1unpwyxfNdjBMaoE",
+  "clientClass": "AgaveBam",
+  "clientVersion": "AgaveBam 4.4.0",
+  "nTx": 457
+ },
+ {
+  "slot": 464944307,
+  "leader": "CwyVpfmfSiMeCexi3JgUNvaiDfYN14cLDjzT99zcBuD2",
+  "clientClass": "AgaveBam",
+  "clientVersion": "AgaveBam 4.3.2",
+  "nTx": 299
+ },
+ {
+  "slot": 464945432,
+  "leader": "7qGNnXKW1e3DsqEaSxwxMdBTFsrK73XtWTmkGitRyMQc",
+  "clientClass": "AgaveBam",
+  "clientVersion": "AgaveBam 4.4.0",
+  "nTx": 493
+ },
+ {
+  "slot": 464945471,
+  "leader": "8gDfqHXZ5ektqQQrLrCGtSzYRwkWQrm3ANnAvQCt2LoM",
+  "clientClass": "AgaveBam",
+  "clientVersion": "AgaveBam 4.3.2",
+  "nTx": 540
+ },
+ {
+  "slot": 464942808,
+  "leader": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "clientClass": "HarmonicFiredancer",
+  "clientVersion": "HarmonicFiredancer 26.10.5",
+  "nTx": 660
+ },
+ {
+  "slot": 464943150,
+  "leader": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
+  "clientClass": "HarmonicFiredancer",
+  "clientVersion": "HarmonicFiredancer 26.10.5",
+  "nTx": 648
+ },
+ {
+  "slot": 464943602,
+  "leader": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
+  "clientClass": "HarmonicFiredancer",
+  "clientVersion": "HarmonicFiredancer 26.10.5",
+  "nTx": 275
+ },
+ {
+  "slot": 464944390,
+  "leader": "DrifTrN923QaouP89UxkQzFGbumKPCnfkNYQRwmZxatz",
+  "clientClass": "HarmonicFiredancer",
+  "clientVersion": "HarmonicFiredancer 26.10.5",
+  "nTx": 270
+ },
+ {
+  "slot": 464944876,
+  "leader": "6YY2VS44RP1sBosdEsvSaiw7gETDNx3tmg5mM5wHpTqM",
+  "clientClass": "HarmonicFiredancer",
+  "clientVersion": "HarmonicFiredancer 26.10.5",
+  "nTx": 372
+ },
+ {
+  "slot": 464944879,
+  "leader": "6YY2VS44RP1sBosdEsvSaiw7gETDNx3tmg5mM5wHpTqM",
+  "clientClass": "HarmonicFiredancer",
+  "clientVersion": "HarmonicFiredancer 26.10.5",
+  "nTx": 307
+ },
+ {
+  "slot": 464943553,
+  "leader": "BbCQMWnfxo4eKTTTmBKuKYkbCDNf3ZpxtvwyN71ivCi4",
+  "clientClass": "Firedancer",
+  "clientVersion": "Firedancer 26.10.4",
+  "nTx": 256
+ },
+ {
+  "slot": 464944362,
+  "leader": "JD549HsbJHeEKKUrKgg4Fj2iyv2RGjsV7NTZjZUrHybB",
+  "clientClass": "Firedancer",
+  "clientVersion": "Firedancer 26.10.5",
+  "nTx": 299
+ },
+ {
+  "slot": 464944481,
+  "leader": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "clientClass": "Firedancer",
+  "clientVersion": "Firedancer 26.10.5",
+  "nTx": 568
+ },
+ {
+  "slot": 464944993,
+  "leader": "BFmqBsaGjeYA7gHpReKmnVkRyhqiMmHoR9ttv1crWmzy",
+  "clientClass": "Firedancer",
+  "clientVersion": "Firedancer 26.10.5",
+  "nTx": 356
+ },
+ {
+  "slot": 464945024,
+  "leader": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
+  "clientClass": "Firedancer",
+  "clientVersion": "Firedancer 26.10.5",
+  "nTx": 673
+ },
+ {
+  "slot": 464945169,
+  "leader": "HW4zorvt6xDwhU36RqjcWNwU8YMj9tiqnAafBKW4cqV",
+  "clientClass": "Firedancer",
+  "clientVersion": "Firedancer 26.10.4",
+  "nTx": 448
+ },
+ {
+  "slot": 464942993,
+  "leader": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "clientClass": "Rakurai",
+  "clientVersion": "Rakurai 4.4.0",
+  "nTx": 365
+ },
+ {
+  "slot": 464944309,
+  "leader": "SLAY6uN1zZpXBTfbuDDCesNmM5D288xrz8uYvfS3n41",
+  "clientClass": "Rakurai",
+  "clientVersion": "Rakurai 4.3.2",
+  "nTx": 202
+ },
+ {
+  "slot": 464944765,
+  "leader": "7VpmyT17QtkPXAKwxjZVmqnuQbUQLdwDC7wpZrjEKse8",
+  "clientClass": "Rakurai",
+  "clientVersion": "Rakurai 4.3.2",
+  "nTx": 255
+ },
+ {
+  "slot": 464944805,
+  "leader": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "clientClass": "Rakurai",
+  "clientVersion": "Rakurai 4.4.0",
+  "nTx": 284
+ },
+ {
+  "slot": 464945400,
+  "leader": "ana2y2YvQ3ZPMwm6qhnN3nJoUSiT3qx5Pvetkq9xcfY",
+  "clientClass": "Rakurai",
+  "clientVersion": "Rakurai 4.4.0",
+  "nTx": 634
+ },
+ {
+  "slot": 464945422,
+  "leader": "E3mDbFMr8yZcCAZx5wPUFCRmLX31u8Nnj4jPoPc54h3F",
+  "clientClass": "Rakurai",
+  "clientVersion": "Rakurai 4.4.0",
+  "nTx": 294
+ },
+ {
+  "slot": 464942732,
+  "leader": "Diman2GphWLwECE3swjrAEAJniezpYLxK1edUydiDZau",
+  "clientClass": "Unknown(49393)",
+  "clientVersion": "Unknown(49393) 4.4.0",
+  "nTx": 300
+ },
+ {
+  "slot": 464942733,
+  "leader": "Diman2GphWLwECE3swjrAEAJniezpYLxK1edUydiDZau",
+  "clientClass": "Unknown(49393)",
+  "clientVersion": "Unknown(49393) 4.4.0",
+  "nTx": 301
+ },
+ {
+  "slot": 464942734,
+  "leader": "Diman2GphWLwECE3swjrAEAJniezpYLxK1edUydiDZau",
+  "clientClass": "Unknown(49393)",
+  "clientVersion": "Unknown(49393) 4.4.0",
+  "nTx": 285
+ },
+ {
+  "slot": 464942735,
+  "leader": "Diman2GphWLwECE3swjrAEAJniezpYLxK1edUydiDZau",
+  "clientClass": "Unknown(49393)",
+  "clientVersion": "Unknown(49393) 4.4.0",
+  "nTx": 584
+ },
+ {
+  "slot": 464943008,
+  "leader": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "clientClass": "FireBAM",
+  "clientVersion": "FireBAM 26.10.5",
+  "nTx": 677
+ },
+ {
+  "slot": 464943010,
+  "leader": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "clientClass": "FireBAM",
+  "clientVersion": "FireBAM 26.10.5",
+  "nTx": 575
+ },
+ {
+  "slot": 464943756,
+  "leader": "idCE5k2BtTpwXdwAC7Var1enT9reut9fWECcxQP7LY7",
+  "clientClass": "FireBAM",
+  "clientVersion": "FireBAM 26.10.5",
+  "nTx": 420
+ },
+ {
+  "slot": 464944138,
+  "leader": "SSmBEooM7RkmyuXxuKgAhTvhQZ36Z3G2WsmLGJKoQLY",
+  "clientClass": "FireBAM",
+  "clientVersion": "FireBAM 26.10.5",
+  "nTx": 376
+ },
+ {
+  "slot": 464944704,
+  "leader": "Tri1F8B6YtjkBztGCwBNSLEZib1EAqMUEUM7dTT7ZG3",
+  "clientClass": "FireBAM",
+  "clientVersion": "FireBAM 26.10.5",
+  "nTx": 456
+ },
+ {
+  "slot": 464944962,
+  "leader": "9jxgosAfHgHzwnxsHw4RAZYaLVokMbnYtmiZBreynGFP",
+  "clientClass": "FireBAM",
+  "clientVersion": "FireBAM 26.10.5",
+  "nTx": 446
+ },
+ {
+  "slot": 464942896,
+  "leader": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "clientClass": "Agave",
+  "clientVersion": "Agave 4.3.2",
+  "nTx": 440
+ },
+ {
+  "slot": 464944702,
+  "leader": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "clientClass": "Agave",
+  "clientVersion": "Agave 4.3.2",
+  "nTx": 365
+ },
+ {
+  "slot": 464944917,
+  "leader": "5Us18hLZPXJTS4QVuGSsUw137Dyd2tgBaem24Xsf5nBS",
+  "clientClass": "Agave",
+  "clientVersion": "Agave 4.3.2",
+  "nTx": 192
+ },
+ {
+  "slot": 464945109,
+  "leader": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "clientClass": "Agave",
+  "clientVersion": "Agave 4.3.2",
+  "nTx": 229
+ },
+ {
+  "slot": 464945195,
+  "leader": "7QQGNm3ptwinipDCyaCF7jY5katgmFUu1ieP2f7nwLpE",
+  "clientClass": "Agave",
+  "clientVersion": "Agave 4.3.2",
+  "nTx": 335
+ },
+ {
+  "slot": 464945214,
+  "leader": "mds4GEuiSgQRqveGyktWpETBFCb4AS2wDnhqwLHcT6Z",
+  "clientClass": "Agave",
+  "clientVersion": "Agave 4.4.0",
+  "nTx": 275
+ }
+]
