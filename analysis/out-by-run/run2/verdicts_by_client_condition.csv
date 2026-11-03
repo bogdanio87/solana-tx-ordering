@@ -1,0 +1,23 @@
+client,arm,send_gap_ms,validators,blocks,pairs,disagree_pairs,P_fee_wins_when_disagree,P_earlier_sent_first,verdict
+Agave,conflict,0,2,2,56,43,0.28 [0.17-0.43],0.75 [0.62-0.84],arrival/FIFO
+Agave,independent,0,2,5,97,49,0.41 [0.28-0.55],0.59 [0.49-0.68],no detectable rule (noise)
+AgaveBam,conflict,0,2,4,112,50,0.82 [0.69-0.90],0.62 [0.53-0.71],priority (soft)
+AgaveBam,conflict,20,1,2,38,26,0.04 [0.01-0.19],0.97 [0.87-1.00],arrival/FIFO
+AgaveBam,independent,0,2,6,128,60,0.53 [0.41-0.65],0.62 [0.54-0.70],no detectable rule (noise)
+AgaveBam,independent,20,1,3,44,29,0.07 [0.02-0.22],0.89 [0.76-0.95],arrival/FIFO
+Firedancer,conflict,0,2,4,112,62,0.63 [0.50-0.74],0.59 [0.50-0.68],priority (soft)
+Firedancer,conflict,20,1,3,41,23,0.04 [0.01-0.21],0.98 [0.87-1.00],arrival/FIFO
+Firedancer,independent,0,2,4,105,55,0.76 [0.64-0.86],0.52 [0.43-0.62],priority (soft)
+Firedancer,independent,20,1,4,32,13,0.00 [0.00-0.23],0.94 [0.80-0.98],arrival/FIFO
+HarmonicAgave,conflict,0,2,6,168,87,0.75 [0.65-0.83],0.54 [0.47-0.62],priority (soft)
+HarmonicAgave,conflict,20,2,4,37,23,0.13 [0.05-0.32],0.92 [0.79-0.97],arrival/FIFO
+HarmonicAgave,independent,0,2,6,161,77,0.52 [0.41-0.63],0.55 [0.48-0.63],no detectable rule (noise)
+HarmonicAgave,independent,20,2,5,89,50,0.06 [0.02-0.16],0.96 [0.89-0.98],arrival/FIFO
+HarmonicFiredancer,conflict,0,1,2,56,34,0.71 [0.54-0.83],0.57 [0.44-0.69],priority (soft)
+HarmonicFiredancer,conflict,20,1,3,41,8,0.00 [0.00-0.32],1.00 [0.91-1.00],arrival/FIFO
+HarmonicFiredancer,independent,0,2,4,112,53,0.43 [0.31-0.57],0.65 [0.56-0.73],no detectable rule (noise)
+HarmonicFiredancer,independent,20,1,3,44,17,0.18 [0.06-0.41],0.91 [0.79-0.96],arrival/FIFO
+JitoLabs,conflict,0,1,6,121,56,0.27 [0.17-0.40],0.62 [0.53-0.70],arrival/FIFO
+JitoLabs,conflict,20,1,4,29,17,0.00 [0.00-0.18],1.00 [0.88-1.00],arrival/FIFO
+JitoLabs,independent,0,2,7,196,117,0.32 [0.24-0.41],0.68 [0.62-0.74],arrival/FIFO
+JitoLabs,independent,20,2,4,29,14,0.14 [0.04-0.40],0.86 [0.69-0.95],arrival/FIFO

@@ -1,0 +1,25 @@
+client,arm,send_gap_ms,validators,blocks,pairs,disagree_pairs,P_fee_wins_when_disagree,P_earlier_sent_first,verdict
+Agave,conflict,0,2,3,84,62,0.29 [0.19-0.41],0.75 [0.65-0.83],arrival/FIFO
+Agave,independent,0,2,9,143,77,0.38 [0.28-0.49],0.62 [0.54-0.70],arrival/FIFO
+Agave,independent,20,1,2,13,8,0.00 [0.00-0.32],1.00 [0.77-1.00],arrival/FIFO
+AgaveBam,conflict,0,2,7,189,83,0.84 [0.75-0.91],0.60 [0.53-0.67],priority (soft)
+AgaveBam,conflict,20,3,7,83,47,0.15 [0.07-0.28],0.89 [0.81-0.94],arrival/FIFO
+AgaveBam,independent,0,3,11,246,117,0.56 [0.47-0.64],0.64 [0.58-0.70],no detectable rule (noise)
+AgaveBam,independent,20,3,9,143,84,0.12 [0.07-0.21],0.90 [0.84-0.94],arrival/FIFO
+FireBAM,conflict,0,1,1,21,8,1.00 [0.68-1.00],0.62 [0.41-0.79],priority (strict)
+Firedancer,conflict,0,2,6,168,83,0.51 [0.40-0.61],0.64 [0.57-0.71],no detectable rule (noise)
+Firedancer,conflict,20,1,6,85,46,0.04 [0.01-0.15],0.95 [0.89-0.98],arrival/FIFO
+Firedancer,independent,0,2,9,238,121,0.69 [0.61-0.77],0.58 [0.51-0.64],priority (soft)
+Firedancer,independent,20,1,8,60,21,0.00 [0.00-0.15],0.95 [0.86-0.98],arrival/FIFO
+HarmonicAgave,conflict,0,3,14,345,185,0.75 [0.68-0.81],0.53 [0.48-0.58],priority (soft)
+HarmonicAgave,conflict,20,3,8,117,47,0.17 [0.09-0.30],0.92 [0.86-0.96],arrival/FIFO
+HarmonicAgave,independent,0,3,14,341,161,0.47 [0.39-0.54],0.61 [0.56-0.66],no detectable rule (noise)
+HarmonicAgave,independent,20,2,11,168,86,0.08 [0.04-0.16],0.95 [0.91-0.98],arrival/FIFO
+HarmonicFiredancer,conflict,0,1,4,112,52,0.58 [0.44-0.70],0.69 [0.60-0.77],no detectable rule (noise)
+HarmonicFiredancer,conflict,20,2,7,92,33,0.12 [0.05-0.27],0.95 [0.88-0.98],arrival/FIFO
+HarmonicFiredancer,independent,0,3,11,261,132,0.48 [0.39-0.56],0.60 [0.54-0.66],no detectable rule (noise)
+HarmonicFiredancer,independent,20,1,6,84,40,0.12 [0.05-0.26],0.93 [0.85-0.97],arrival/FIFO
+JitoLabs,conflict,0,2,13,274,144,0.36 [0.29-0.44],0.62 [0.56-0.67],arrival/FIFO
+JitoLabs,conflict,20,2,8,94,49,0.10 [0.04-0.22],0.95 [0.88-0.98],arrival/FIFO
+JitoLabs,independent,0,5,16,401,215,0.35 [0.29-0.41],0.67 [0.63-0.72],arrival/FIFO
+JitoLabs,independent,20,3,8,81,43,0.05 [0.01-0.15],0.94 [0.86-0.97],arrival/FIFO

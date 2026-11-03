@@ -147,6 +147,11 @@ def passive():
     ax.set_title("Passive: does priority predict position? (each point = one block)")
     plt.xticks(rotation=30, ha="right"); plt.tight_layout()
     plt.savefig(os.path.join(OUT, "passive_rho_by_client.png"), dpi=130); plt.close()
+    dd0 = pd.DataFrame(decile_rows)
+    fd = dd0[dd0.reldec == 0].groupby("client").ppc_pct.mean().round(2).sort_values(ascending=False)
+    md.append("First decile of each block: mean within-block priority percentile of its txs (0.5 = no relation; all blocks: "
+              f"{dd0[dd0.reldec == 0].ppc_pct.mean():.2f}).\n")
+    md.append(fd.to_frame("first_decile_prio_pct").to_markdown() + "\n")
     # chart: mean priority percentile by position decile
     dd = pd.DataFrame(decile_rows).groupby(["client", "reldec"]).ppc_pct.mean().unstack(0)
     fig, ax = plt.subplots(figsize=(9, 4.5))

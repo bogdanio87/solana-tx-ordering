@@ -10,7 +10,17 @@ comparisons inside the same block then show which rule the leader applied (**fee
 strictly it held.
 
 * Report: [`REPORT.md`](REPORT.md) — dates of every measurement, results, "what went wrong".
-* Auto-generated tables & charts: [`analysis/out/results.md`](analysis/out/results.md) (mainnet), [`analysis/out-localnet/results.md`](analysis/out-localnet/results.md) (localnet calibration).
+
+**Result in one paragraph (2026-11-03, post-Alpenglow mainnet, 1,280 own probes landed in blocks of 24 validators /
+7 client families / 13 versions, 0.0104 SOL spent, 1,280/1,280 re-verified on-chain).** Arrival order is the dominant
+rule on every client: probes 20 ms apart keep send order 89–95% of the time and a higher fee wins only 0–17% of
+fee-vs-arrival conflicts. Fee decides only among transactions queued *simultaneously* that *contend for the same write
+lock*, and only on some clients: AgaveBam 0.84 and HarmonicAgave 0.75 vs stock Agave 0.29 and Jito-Solana 0.36
+(P(fee wins | rules disagree), reproduced across two runs); FireBAM (1 block) and Firedancer 0.1.1 (one run) also fee-order. Firedancer 26.10.x / Harmonic-Firedancer
+are undetermined (runs disagree). Priority fee did not change inclusion (99% at every level), and blocks are not
+fee-sorted against third-party traffic. Heat-map: [`analysis/out/active_headline_heatmap.png`](analysis/out/active_headline_heatmap.png).
+* Auto-generated tables & charts: [`analysis/out/results.md`](analysis/out/results.md) (mainnet, all runs), [`analysis/out-by-run/`](analysis/out-by-run) (each live run alone — replication check), [`analysis/out-localnet/results.md`](analysis/out-localnet/results.md) (localnet calibration).
+* Independent chain re-check of every landed probe: [`data/verify_report.txt`](data/verify_report.txt).
 * Raw data: [`data/`](data) (signatures, slots, positions, per-block summaries of **every** transaction in each examined block).
 
 ---
@@ -46,13 +56,16 @@ python3 scripts/verify.py --sample 0
 
 A full live run takes ~65 min (the planner looks 18 000 slots ahead to get 12 windows for each of 12 validators).
 If anything is interrupted, `DRY_RUN=false I_UNDERSTAND_THIS_SPENDS_SOL=yes docker compose run --rm experiment node dist/main.js reclaim`
-sweeps the sub-wallets back to the payer.
+sweeps the sub-wallets back to the payer. If a run is stopped before it collects its blocks,
+`RUN_ID=<run-id> docker compose run --rm experiment node dist/main.js collect` resolves statuses and fetches the blocks
+of the windows that were fired (no sending).
 
 Without Docker: `npm ci && npm run build && npm test && node dist/main.js passive && node dist/main.js experiment && python3 analysis/analyze.py`
-(set `DATA_DIR=./data KEYPAIR_PATH=./keys/payer.json SUBWALLETS_PATH=./keys/subwallets.json`).
+(set `DATA_DIR=./data KEYPAIR_PATH=./keys/payer.json SUBWALLETS_PATH=./keys/subwallets.json`; `analyze.py` reads `DATA_DIR`/`OUT_DIR`).
 
 All knobs are environment variables (see `src/config.ts` and `docker-compose.yml`): `RPC_URL`, `SEND_RPC_URLS`
-(comma-separated fan-out list), `WINDOWS_PER_VALIDATOR`, `TX_PER_WINDOW`, `PRIORITY_LEVELS_LAMPORTS`,
+(comma-separated fan-out list; our live runs used `https://api.mainnet-beta.solana.com` and `https://solana-rpc.publicnode.com`,
+both free and keyless), `SEND_TIMEOUT_MS` (per-send HTTP timeout, default 4000), `ALPENGLOW_SLOT`, `WINDOWS_PER_VALIDATOR`, `TX_PER_WINDOW`, `PRIORITY_LEVELS_LAMPORTS`,
 `SEND_GAPS_MS`, `FIRE_SLOT_OFFSETS`, `ARMS`, `TARGET_IDENTITIES`, `SEED`, …
 
 ---
@@ -174,7 +187,7 @@ regimes.
 ## Layout
 ```
 src/            TypeScript experiment (config, rpc, leaders, plan, tx, budget, sender, slotclock, blocks, experiment, passive)
-analysis/       analyze.py (pandas/scipy/matplotlib) + generated out/ and out-localnet/
+analysis/       analyze.py (pandas/scipy/matplotlib) + generated out/, out-by-run/ and out-localnet/
 scripts/        pipeline.sh (container entry), verify.py (independent chain re-check)
 test/           unit tests
 data/           raw data (runs/, passive/, localnet-calibration/, spend_ledger.json)
