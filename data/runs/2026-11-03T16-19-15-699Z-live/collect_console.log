@@ -1,0 +1,64 @@
+[2026-11-03T16:37:13.663Z] collect_resume runId=2026-11-03T16-19-15-699Z-live probes=608 windowsFired=76
+[2026-11-03T16:38:15.275Z] statuses sent=608 landed=600
+[2026-11-03T16:38:16.686Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=430
+[2026-11-03T16:38:18.336Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=316
+[2026-11-03T16:38:19.920Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=365
+[2026-11-03T16:38:21.510Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=402
+[2026-11-03T16:38:23.026Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=447
+[2026-11-03T16:38:24.613Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=341
+[2026-11-03T16:38:26.040Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=337
+[2026-11-03T16:38:27.522Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=339
+[2026-11-03T16:38:28.115Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=481
+[2026-11-03T16:38:29.842Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=373
+[2026-11-03T16:38:31.545Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=363
+[2026-11-03T16:38:33.516Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=309
+[2026-11-03T16:38:35.122Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=434
+[2026-11-03T16:38:36.928Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=343
+[2026-11-03T16:38:37.336Z] rpc_retry method=getBlock attempt=1 code=429 msg=HTTP 429 backoffMs=724
+[2026-11-03T16:38:39.396Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=386
+[2026-11-03T16:38:39.897Z] rpc_retry method=getBlock attempt=1 code=429 msg=HTTP 429 backoffMs=789
+[2026-11-03T16:38:41.799Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=382
+[2026-11-03T16:38:43.904Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=425
+[2026-11-03T16:38:45.766Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=311
+[2026-11-03T16:38:47.229Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=376
+[2026-11-03T16:38:48.788Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=465
+[2026-11-03T16:38:50.315Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=382
+[2026-11-03T16:38:52.199Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=476
+[2026-11-03T16:38:53.940Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=315
+[2026-11-03T16:38:55.352Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=360
+[2026-11-03T16:38:56.812Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=333
+[2026-11-03T16:38:57.240Z] rpc_retry method=getBlock attempt=1 code=429 msg=HTTP 429 backoffMs=671
+[2026-11-03T16:38:59.151Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=310
+[2026-11-03T16:39:01.050Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=482
+[2026-11-03T16:39:02.865Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=370
+[2026-11-03T16:39:04.285Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=338
+[2026-11-03T16:39:05.960Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=379
+[2026-11-03T16:39:07.663Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=413
+[2026-11-03T16:39:09.307Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=339
+[2026-11-03T16:39:09.933Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=352
+[2026-11-03T16:39:11.421Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=436
+[2026-11-03T16:39:13.066Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=359
+[2026-11-03T16:39:15.062Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=345
+[2026-11-03T16:39:16.653Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=302
+[2026-11-03T16:39:18.145Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=326
+[2026-11-03T16:39:19.565Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=310
+[2026-11-03T16:39:19.938Z] rpc_retry method=getBlock attempt=1 code=429 msg=HTTP 429 backoffMs=774
+[2026-11-03T16:39:22.259Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=380
+[2026-11-03T16:39:23.366Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=381
+[2026-11-03T16:39:24.931Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=415
+[2026-11-03T16:39:26.777Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=383
+[2026-11-03T16:39:28.377Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=416
+[2026-11-03T16:39:30.335Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=319
+[2026-11-03T16:39:30.720Z] rpc_retry method=getBlock attempt=1 code=429 msg=HTTP 429 backoffMs=640
+[2026-11-03T16:39:32.804Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=351
+[2026-11-03T16:39:34.532Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=313
+[2026-11-03T16:39:35.972Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=489
+[2026-11-03T16:39:37.539Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=468
+[2026-11-03T16:39:39.274Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=412
+[2026-11-03T16:39:39.756Z] rpc_retry method=getBlock attempt=1 code=429 msg=HTTP 429 backoffMs=628
+[2026-11-03T16:39:41.608Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=327
+[2026-11-03T16:39:43.327Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=411
+[2026-11-03T16:39:45.397Z] rpc_retry method=getBlock attempt=0 code=429 msg=HTTP 429 backoffMs=478
+[2026-11-03T16:39:46.538Z] blocks_fetched n=309 skipped=0
+[2026-11-03T16:39:46.538Z] collect_done runId=2026-11-03T16-19-15-699Z-live
+COLLECT_EXIT 0

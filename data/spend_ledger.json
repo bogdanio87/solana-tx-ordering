@@ -1,7 +1,7 @@
 {
  "createdAt": "2026-11-03T14:59:28.366Z",
  "capLamports": 40000000,
- "reservedLamports": 10086025,
+ "reservedLamports": 10126025,
  "initialTotalBalance": 40000000,
  "entries": [
   {
@@ -9159,6 +9159,62 @@
    "kind": "probe",
    "signature": "31FknBYDFBcsPJCaLRmT8zYhVxuQoyqw4KHzkQ5j7et748SEnRMq4zLiC2z519HVw6VqDY5dmCmNVUgjYQHGkJHT",
    "lamports": 5400
+  },
+  {
+   "ts": "2026-11-03T16:39:47.353Z",
+   "runId": "reclaim",
+   "kind": "sweep",
+   "signature": "3Z6fwuFxbsCMJRHfRfHrB8ATt1XUh3YixSpYSxS1AqszSCxK5WyJeEEfGoMcciqrNEeH3PZR6AXkUrFrsKgGGkfw",
+   "lamports": 5000
+  },
+  {
+   "ts": "2026-11-03T16:39:52.002Z",
+   "runId": "reclaim",
+   "kind": "sweep",
+   "signature": "ucbhofBdSuVVMQGB4zFZ6rrnKMS19nWcc2uXAFMz9HnuqqkKEqTeMY985NVeC7Ls2wZyW7BCVqZUAZbw4DNw6LB",
+   "lamports": 5000
+  },
+  {
+   "ts": "2026-11-03T16:39:56.648Z",
+   "runId": "reclaim",
+   "kind": "sweep",
+   "signature": "nQoWZg2yfGVY9rre2EfdSaojARYQa9qzeHBwLJ7Qb9mgmyR3Dom1aDbUdfaEJEAwmuB1ZFE8yucSkYzaypYCBvT",
+   "lamports": 5000
+  },
+  {
+   "ts": "2026-11-03T16:40:01.189Z",
+   "runId": "reclaim",
+   "kind": "sweep",
+   "signature": "2wR5aFj2an2nzt4PiHZMfnwHt6ce58zHSuUg2C5T4pHxWScV9iJBSGMm248nS8hxKWGZR2c5YDDV7MgLyTK5wYdJ",
+   "lamports": 5000
+  },
+  {
+   "ts": "2026-11-03T16:40:05.695Z",
+   "runId": "reclaim",
+   "kind": "sweep",
+   "signature": "385HtNe3icTuUTBBe5krcbaLkq7TzKy2qYqeQC39UpQPzdQ3NN8q9S5EiqqCjCCzP5UEDhcwXbbA3RkzqLDmvmj7",
+   "lamports": 5000
+  },
+  {
+   "ts": "2026-11-03T16:40:10.430Z",
+   "runId": "reclaim",
+   "kind": "sweep",
+   "signature": "4HCGbukh7jvQK5iJ3YhMzB9r6MmhBSurKXYoBSF9NoF7doZiZbg9J2gCrJSP3Zrcv1whhNwSZzPeN5pfEsjMahSU",
+   "lamports": 5000
+  },
+  {
+   "ts": "2026-11-03T16:40:15.253Z",
+   "runId": "reclaim",
+   "kind": "sweep",
+   "signature": "2a7goKsqQ9quwEzzLSAvhVYEX4BjFSiLyY4mjaVaRgrjyrXcW1zNnrX3cuymtRHvxe6drpqQxR2QS6C3bSkQjEzo",
+   "lamports": 5000
+  },
+  {
+   "ts": "2026-11-03T16:40:20.362Z",
+   "runId": "reclaim",
+   "kind": "sweep",
+   "signature": "W6ZwjjEte43tSvFLMW1R8oKYWRCJVjR3FZ8Zoa82QSzQrm1JZB5JtmEhKdBY8uWx3wkwQbbWZfKjjRxh6hWxq8D",
+   "lamports": 5000
   }
  ]
 }

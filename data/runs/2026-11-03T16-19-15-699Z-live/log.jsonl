@@ -143,3 +143,65 @@
 {"ts":"2026-11-03T16:36:45.141Z","tsMs":1793723805141,"event":"window_skipped_late","windowId":"464968168-Hz5aLv","now":"464968292.5","fireSlot":464968167}
 {"ts":"2026-11-03T16:36:45.141Z","tsMs":1793723805141,"event":"window_skipped_late","windowId":"464968200-pSo1KZ","now":"464968292.5","fireSlot":464968199}
 {"ts":"2026-11-03T16:37:13.663Z","tsMs":1793723833664,"event":"collect_resume","runId":"2026-11-03T16-19-15-699Z-live","probes":608,"windowsFired":76}
+{"ts":"2026-11-03T16:38:15.275Z","tsMs":1793723895275,"event":"statuses","sent":608,"landed":600}
+{"ts":"2026-11-03T16:38:16.686Z","tsMs":1793723896686,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":430}
+{"ts":"2026-11-03T16:38:18.336Z","tsMs":1793723898336,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":316}
+{"ts":"2026-11-03T16:38:19.920Z","tsMs":1793723899920,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":365}
+{"ts":"2026-11-03T16:38:21.510Z","tsMs":1793723901510,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":402}
+{"ts":"2026-11-03T16:38:23.026Z","tsMs":1793723903026,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":447}
+{"ts":"2026-11-03T16:38:24.613Z","tsMs":1793723904613,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":341}
+{"ts":"2026-11-03T16:38:26.040Z","tsMs":1793723906040,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":337}
+{"ts":"2026-11-03T16:38:27.522Z","tsMs":1793723907522,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":339}
+{"ts":"2026-11-03T16:38:28.115Z","tsMs":1793723908115,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":481}
+{"ts":"2026-11-03T16:38:29.842Z","tsMs":1793723909842,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":373}
+{"ts":"2026-11-03T16:38:31.545Z","tsMs":1793723911545,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":363}
+{"ts":"2026-11-03T16:38:33.516Z","tsMs":1793723913516,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":309}
+{"ts":"2026-11-03T16:38:35.122Z","tsMs":1793723915122,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":434}
+{"ts":"2026-11-03T16:38:36.928Z","tsMs":1793723916929,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":343}
+{"ts":"2026-11-03T16:38:37.336Z","tsMs":1793723917336,"event":"rpc_retry","method":"getBlock","attempt":1,"code":429,"msg":"HTTP 429","backoffMs":724}
+{"ts":"2026-11-03T16:38:39.396Z","tsMs":1793723919396,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":386}
+{"ts":"2026-11-03T16:38:39.897Z","tsMs":1793723919897,"event":"rpc_retry","method":"getBlock","attempt":1,"code":429,"msg":"HTTP 429","backoffMs":789}
+{"ts":"2026-11-03T16:38:41.799Z","tsMs":1793723921799,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":382}
+{"ts":"2026-11-03T16:38:43.904Z","tsMs":1793723923904,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":425}
+{"ts":"2026-11-03T16:38:45.766Z","tsMs":1793723925766,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":311}
+{"ts":"2026-11-03T16:38:47.229Z","tsMs":1793723927229,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":376}
+{"ts":"2026-11-03T16:38:48.788Z","tsMs":1793723928788,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":465}
+{"ts":"2026-11-03T16:38:50.315Z","tsMs":1793723930315,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":382}
+{"ts":"2026-11-03T16:38:52.199Z","tsMs":1793723932199,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":476}
+{"ts":"2026-11-03T16:38:53.940Z","tsMs":1793723933940,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":315}
+{"ts":"2026-11-03T16:38:55.352Z","tsMs":1793723935352,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":360}
+{"ts":"2026-11-03T16:38:56.812Z","tsMs":1793723936812,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":333}
+{"ts":"2026-11-03T16:38:57.240Z","tsMs":1793723937240,"event":"rpc_retry","method":"getBlock","attempt":1,"code":429,"msg":"HTTP 429","backoffMs":671}
+{"ts":"2026-11-03T16:38:59.151Z","tsMs":1793723939151,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":310}
+{"ts":"2026-11-03T16:39:01.050Z","tsMs":1793723941050,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":482}
+{"ts":"2026-11-03T16:39:02.865Z","tsMs":1793723942865,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":370}
+{"ts":"2026-11-03T16:39:04.285Z","tsMs":1793723944285,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":338}
+{"ts":"2026-11-03T16:39:05.960Z","tsMs":1793723945960,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":379}
+{"ts":"2026-11-03T16:39:07.663Z","tsMs":1793723947663,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":413}
+{"ts":"2026-11-03T16:39:09.307Z","tsMs":1793723949307,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":339}
+{"ts":"2026-11-03T16:39:09.933Z","tsMs":1793723949933,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":352}
+{"ts":"2026-11-03T16:39:11.421Z","tsMs":1793723951421,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":436}
+{"ts":"2026-11-03T16:39:13.066Z","tsMs":1793723953066,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":359}
+{"ts":"2026-11-03T16:39:15.062Z","tsMs":1793723955062,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":345}
+{"ts":"2026-11-03T16:39:16.653Z","tsMs":1793723956653,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":302}
+{"ts":"2026-11-03T16:39:18.145Z","tsMs":1793723958145,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":326}
+{"ts":"2026-11-03T16:39:19.565Z","tsMs":1793723959565,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":310}
+{"ts":"2026-11-03T16:39:19.938Z","tsMs":1793723959938,"event":"rpc_retry","method":"getBlock","attempt":1,"code":429,"msg":"HTTP 429","backoffMs":774}
+{"ts":"2026-11-03T16:39:22.259Z","tsMs":1793723962259,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":380}
+{"ts":"2026-11-03T16:39:23.366Z","tsMs":1793723963366,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":381}
+{"ts":"2026-11-03T16:39:24.931Z","tsMs":1793723964931,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":415}
+{"ts":"2026-11-03T16:39:26.777Z","tsMs":1793723966777,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":383}
+{"ts":"2026-11-03T16:39:28.377Z","tsMs":1793723968377,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":416}
+{"ts":"2026-11-03T16:39:30.335Z","tsMs":1793723970335,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":319}
+{"ts":"2026-11-03T16:39:30.720Z","tsMs":1793723970720,"event":"rpc_retry","method":"getBlock","attempt":1,"code":429,"msg":"HTTP 429","backoffMs":640}
+{"ts":"2026-11-03T16:39:32.804Z","tsMs":1793723972804,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":351}
+{"ts":"2026-11-03T16:39:34.532Z","tsMs":1793723974532,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":313}
+{"ts":"2026-11-03T16:39:35.972Z","tsMs":1793723975972,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":489}
+{"ts":"2026-11-03T16:39:37.539Z","tsMs":1793723977539,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":468}
+{"ts":"2026-11-03T16:39:39.274Z","tsMs":1793723979274,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":412}
+{"ts":"2026-11-03T16:39:39.756Z","tsMs":1793723979756,"event":"rpc_retry","method":"getBlock","attempt":1,"code":429,"msg":"HTTP 429","backoffMs":628}
+{"ts":"2026-11-03T16:39:41.608Z","tsMs":1793723981608,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":327}
+{"ts":"2026-11-03T16:39:43.327Z","tsMs":1793723983327,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":411}
+{"ts":"2026-11-03T16:39:45.397Z","tsMs":1793723985397,"event":"rpc_retry","method":"getBlock","attempt":0,"code":429,"msg":"HTTP 429","backoffMs":478}
+{"ts":"2026-11-03T16:39:46.538Z","tsMs":1793723986538,"event":"blocks_fetched","n":309,"skipped":0}
+{"ts":"2026-11-03T16:39:46.538Z","tsMs":1793723986538,"event":"collect_done","runId":"2026-11-03T16-19-15-699Z-live"}
